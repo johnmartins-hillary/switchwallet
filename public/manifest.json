@@ -1,0 +1,8 @@
+{
+  "short_name": "SwitchWallet",
+  "name": "SwitchWallet",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2546bd",
+  "background_color": "#ffffff"
+}
