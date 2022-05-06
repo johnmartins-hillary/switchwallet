@@ -23,7 +23,7 @@ function Header() {
                     </div>
                     {/* Menu Items */}
                     <div className="hidden md:flex items-center space-x-1">
-                        <Link to="/technology" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-blue-600 transition duration-300 ease-in ${pathname === '/technology' ? 'text-blue-600' : ''}`}>Technology</Link>
+                        <Link to="/about" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-blue-600 transition duration-300 ease-in ${pathname === '/about' ? 'text-blue-600' : ''}`}>Technology</Link>
                         <Link to="/pricing" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-blue-600 transition duration-300 ease-in ${pathname === '/pricing' ? 'text-blue-600' : ''}`}>Pricing</Link>
                         <Link to="/developers" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-blue-600 transition duration-300 ease-in ${pathname === '/developers' ? 'text-blue-600' : ''}`}>Developers</Link>
                         <Link to="/support" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-blue-600 transition duration-300 ease-in ${pathname === '/support' ? 'text-blue-600' : ''}`}>Support</Link>
@@ -40,7 +40,7 @@ function Header() {
             </div>
             {/* Mobile Menu */}
             <div className="mobile-menu hidden md:hidden">
-                <Link to="/technology" className={`block py-2 px-4 text-lg font-dmsans font-medium hover:text-blue-600 focus:text-blue-600 transition duration-300 ease-in ${pathname === '/technology' ? 'text-blue-600' : ''}`}>Technology</Link>
+                <Link to="/about" className={`block py-2 px-4 text-lg font-dmsans font-medium hover:text-blue-600 focus:text-blue-600 transition duration-300 ease-in ${pathname === '/about' ? 'text-blue-600' : ''}`}>Technology</Link>
                 <Link to="/pricing" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-blue-600 focus:text-blue-600 transition duration-300 ease-in ${pathname === '/pricing' ? 'text-blue-600' : ''}`}>Pricing</Link>
                 <Link to="/developers" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-blue-600 focus:text-blue-600 transition duration-300 ease-in ${pathname === '/developers' ? 'text-blue-600' : ''}`}>Developers</Link>
                 <Link to="/support" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-blue-600 focus:text-blue-600 transition duration-300 ease-in ${pathname === '/support' ? 'text-blue-600' : ''}`}>Support</Link>
