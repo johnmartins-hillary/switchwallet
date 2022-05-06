@@ -3,11 +3,12 @@ module.exports = {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    fontFamily: {
-      rubik: ['Rubik', 'sans-serif'],
-      dmsans: ['DM Sans', 'sans-serif']
+    extend: {
+      fontFamily: {
+        rubik: ['Rubik', 'sans-serif'],
+        dmsans: ['DM Sans', 'sans-serif']
+      },
     },
-    extend: {},
   },
   plugins: [],
 }

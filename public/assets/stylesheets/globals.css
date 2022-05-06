@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        scroll-behavior: smooth;
+    }
+
+    /* @font-face {
+        font-family: "RubikRegular";
+        src: url("../fonts/Rubik/Rubik-Regular.ttf");
+    }
+
+    @font-face {
+        font-family: "RubikMedium";
+        src: url("../fonts/Rubik/Rubik-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "RubikLight";
+        src: url("../fonts/Rubik/Rubik-Light.ttf");
+    }
+
+    @font-face {
+        font-family: "RubikSemiBold";
+        src: url("../fonts/Rubik/Rubik-SemiBold.ttf");
+    }
+
+    @font-face {
+        font-family: "RubikBold";
+        src: url("../fonts/Rubik/Rubik-Bold.ttf");
+    }
+
+    @font-face {
+        font-family: "RubikExtraBold";
+        src: url("../fonts/Rubik/Rubik-ExtraBold.ttf");
+    }
+
+    @font-face {
+        font-family: "RubikBlack";
+        src: url("../fonts/Rubik/Rubik-Black.ttf");
+    }
+
+    @font-face {
+        font-family: "RubikRegular";
+        src: url("../fonts/DMSans/DMSans-Regular.ttf");
+    }
+
+    @font-face {
+        font-family: "RubikMedium";
+        src: url("../fonts/DMSans/DMSans-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "DMSansBold";
+        src: url("../fonts/DMSans/DMSans-Bold.ttf");
+    } */
+
+    .text-gradient {
+        background-color: #fff;
+        background-image: linear-gradient(141.55deg, #FF6600 -3.79%, #2042B8 82.82%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .bg-gradient {
+        background-color: #0f0e13;
+        background-image: linear-gradient(141.55deg, #FF6600 -3.79%, #2042B8 82.82%);
+    }
+
+    .border-gradient {
+        border-width: 2px;
+        border-color: rgb(180 83 9);
+    }
+    
+}

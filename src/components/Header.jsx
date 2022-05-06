@@ -19,7 +19,7 @@ function Header() {
                 <div className="flex justify-between">
                     <div className="flex space-x-4">
                         {/* Logo */}
-                        <Link to="/" className="py-5"><img src="assets/images/logo.png" alt="Logo" /></Link>
+                        <Link to="/" className="py-5"><img src="assets/images/logo.svg" alt="Logo" /></Link>
                     </div>
                     {/* Menu Items */}
                     <div className="hidden md:flex items-center space-x-1">
@@ -28,7 +28,7 @@ function Header() {
                         <Link to="/developers" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-blue-600 transition duration-300 ease-in ${pathname === '/developers' ? 'text-blue-600' : ''}`}>Developers</Link>
                         <Link to="/support" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-blue-600 transition duration-300 ease-in ${pathname === '/support' ? 'text-blue-600' : ''}`}>Support</Link>
                         <Link to="/login" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-blue-600 transition duration-300 ease-in ${pathname === '/login' ? 'text-blue-600' : ''}`}>Login</Link>
-                        <Link to="/register"><button type='button' className='p-3 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-medium md:ml-0 ml-4'>Create Account</button></Link>
+                        <Link to="/register"><button type='button' className='p-4 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-bold md:ml-0 ml-4'>Create Account</button></Link>
                     </div>
                     {/* Hamburger Icon */}
                     <div className="md:hidden flex items-center">
@@ -45,7 +45,7 @@ function Header() {
                 <Link to="/developers" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-blue-600 focus:text-blue-600 transition duration-300 ease-in ${pathname === '/developers' ? 'text-blue-600' : ''}`}>Developers</Link>
                 <Link to="/support" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-blue-600 focus:text-blue-600 transition duration-300 ease-in ${pathname === '/support' ? 'text-blue-600' : ''}`}>Support</Link>
                 <Link to="/login" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-blue-600 focus:text-blue-600 transition duration-300 ease-in ${pathname === '/login' ? 'text-blue-600' : ''}`}>Login</Link>
-                <Link to="/register"><button type='button' className='p-3 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-medium md:ml-0 ml-4'>Create Account</button></Link>
+                <Link to="/register"><button type='button' className='p-4 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-bold md:ml-0 ml-4'>Create Account</button></Link>
             </div>
         </header>
     )
