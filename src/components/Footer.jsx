@@ -15,9 +15,9 @@ function Footer() {
                         <div>
                             <p className="font-dmsans font-medium text-lg">Technology</p>
                             <nav className="flex flex-col mt-4 space-y-2 text-base font-dmsans text-gray-500">
-                                <Link className="hover:opacity-75" to=''>For Start-ups</Link>
-                                <Link className="hover:opacity-75" to=''>For Enterpise</Link>
-                                <Link className="hover:opacity-75" to=''>For Global Brands</Link>
+                                <Link className="hover:opacity-75" to='#'>For Start-ups</Link>
+                                <Link className="hover:opacity-75" to='#'>For Enterpise</Link>
+                                <Link className="hover:opacity-75" to='#'>For Global Brands</Link>
                             </nav>
                         </div>
                         <div>
@@ -26,17 +26,17 @@ function Footer() {
                         <div>
                             <p className="font-dmsans font-medium text-lg">Developers</p>
                             <nav className="flex flex-col mt-4 space-y-2 text-base font-dmsans text-gray-500">
-                                <Link className="hover:opacity-75" to=''>API</Link>
-                                <Link className="hover:opacity-75" to=''>Documentation</Link>
+                                <Link className="hover:opacity-75" to='/api'>API</Link>
+                                <Link className="hover:opacity-75" to='/documentation'>Documentation</Link>
                             </nav>
                         </div>
                         <div>
                             <p className="font-dmsans font-medium text-lg">Support</p>
                             <nav className="flex flex-col mt-4 space-y-2 text-base font-dmsans text-gray-500">
-                                <Link className="hover:opacity-75" to=''>FAQ</Link>
-                                <Link className="hover:opacity-75" to=''>Blog</Link>
-                                <Link className="hover:opacity-75" to=''>Contact Us</Link>
-                                <Link className="hover:opacity-75" to=''>Privacy & Terms</Link>
+                                <Link className="hover:opacity-75" to='/faq'>FAQ</Link>
+                                <Link className="hover:opacity-75" to='/blog'>Blog</Link>
+                                <Link className="hover:opacity-75" to='/contact-us'>Contact Us</Link>
+                                <Link className="hover:opacity-75" to='/privacy-terms'>Privacy & Terms</Link>
                             </nav>
                         </div>
                     </div>

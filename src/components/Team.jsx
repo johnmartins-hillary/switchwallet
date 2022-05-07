@@ -3,7 +3,7 @@ import React from 'react'
 function Team() {
     return (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 my-20 md:my-60">
-            <img className='absolute right-0 hidden md:block' src="assets/images/big_side_logo.svg" alt="Biggest Logo" />
+            <img className='absolute right-0 hidden md:block' src="assets/images/big_side_logo.svg" alt="Big" />
             <div className="text-center pb-20">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-rubik font-bold text-gray-900">The Executive Team</h1>
             </div>
