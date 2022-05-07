@@ -17,7 +17,7 @@ function Welcome() {
                             <button type='button' className='p-4 md:w-56 w-40 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
                         </Link>
                         <Link to="/contact">
-                            <button type='text' className='p-3 md:p-4 md:w-56 w-40 cursor-pointer rounded-full text-gradient font-dmsans font-bold md:text-lg text-center text-lg my-0 border-gradient'>Contact Sales</button>
+                            <button type='text' className='p-3 md:p-4 md:w-56 w-40 cursor-pointer rounded-full text-gradient font-dmsans font-bold md:text-lg text-center text-lg my-0 border-2 border-amber-700'>Contact Sales</button>
                         </Link>
                     </div>
                     <div className='mt-32'>

@@ -22,7 +22,7 @@ function GettingStarted() {
                             <h2 className="text-3xl text-dark mb-5 font-rubik font-bold">Switch Wallet For Start-up</h2>
                             <p className="text-zinc-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum, accumsan tincidunt vehicula quam odio.</p>
                             <Link to="/register">
-                                <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
+                                <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-2 border-amber-700 rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
                                     Get Started
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -39,7 +39,7 @@ function GettingStarted() {
                             <h2 className="text-3xl text-dark mb-5 font-rubik font-bold">Switch Wallet For Enterprise</h2>
                             <p className="text-zinc-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum, accumsan tincidunt vehicula quam odio.</p>
                             <Link to="/register">
-                                <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
+                                <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-2 border-amber-700 rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
                                     Get Started
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -56,7 +56,7 @@ function GettingStarted() {
                             <h2 className="text-3xl text-dark mb-5 font-rubik font-bold">Switch Wallet For Global Brand</h2>
                             <p className="text-zinc-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum, accumsan tincidunt vehicula quam odio.</p>
                             <Link to="/register">
-                                <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
+                                <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-2 border-amber-700 rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
                                     Get Started
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
