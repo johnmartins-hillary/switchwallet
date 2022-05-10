@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && tailwindcss -i public/assets/stylesheets/tailwind.css -o public/assets/stylesheets/style.css",
-    "watch": "react-scripts build && tailwindcss -i public/assets/stylesheets/tailwind.css -o public/assets/stylesheets/style.css --watch",
+    "build": "react-scripts build && tailwindcss -i public/assets/stylesheets/globals.css -o public/assets/stylesheets/style.css",
+    "watch": "react-scripts build && tailwindcss -i public/assets/stylesheets/globals.css -o public/assets/stylesheets/style.css --watch",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
