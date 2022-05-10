@@ -4,65 +4,81 @@
 
 @layer base {
     html {
+        font-family: 'Rubik', 'DM Sans', sans-serif;
         scroll-behavior: smooth;
     }
     
     body {
         margin: 0;
         padding: 0;
+        font-family: 'Rubik', 'DM Sans', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
 
-    /* @font-face {
-        font-family: "RubikRegular";
-        src: url("../fonts/Rubik/Rubik-Regular.ttf");
+    code {
+        font-family: 'Rubik', 'DM Sans', sans-serif;
     }
 
     @font-face {
-        font-family: "RubikMedium";
-        src: url("../fonts/Rubik/Rubik-Medium.ttf");
+        font-family: 'Rubik Regular';
+        src: url('../fonts/Rubik/Rubik-Regular.ttf');
+        src: url('../fonts/Rubik/Rubik-Regular.ttf') format('truetype');
     }
 
     @font-face {
-        font-family: "RubikLight";
-        src: url("../fonts/Rubik/Rubik-Light.ttf");
+        font-family: 'Rubik Medium';
+        src: url('../fonts/Rubik/Rubik-Medium.ttf');
+        src: url('../fonts/Rubik/Rubik-Medium.ttf') format('truetype');
     }
 
     @font-face {
-        font-family: "RubikSemiBold";
-        src: url("../fonts/Rubik/Rubik-SemiBold.ttf");
+        font-family: 'Rubik Light';
+        src: url('../fonts/Rubik/Rubik-Light.ttf');
+        src: url('../fonts/Rubik/Rubik-Light.ttf') format('truetype');
     }
 
     @font-face {
-        font-family: "RubikBold";
-        src: url("../fonts/Rubik/Rubik-Bold.ttf");
+        font-family: 'Rubik SemiBold';
+        src: url('../fonts/Rubik/Rubik-SemiBold.ttf');
+        src: url('../fonts/Rubik/Rubik-SemiBold.ttf') format('truetype');
     }
 
     @font-face {
-        font-family: "RubikExtraBold";
-        src: url("../fonts/Rubik/Rubik-ExtraBold.ttf");
+        font-family: 'Rubik Bold';
+        src: url('../fonts/Rubik/Rubik-Bold.ttf');
+        src: url('../fonts/Rubik/Rubik-Bold.ttf') format('truetype');
     }
 
     @font-face {
-        font-family: "RubikBlack";
-        src: url("../fonts/Rubik/Rubik-Black.ttf");
+        font-family: 'Rubik ExtraBold';
+        src: url('../fonts/Rubik/Rubik-ExtraBold.ttf');
+        src: url('../fonts/Rubik/Rubik-ExtraBold.ttf') format('truetype');
     }
 
     @font-face {
-        font-family: "RubikRegular";
-        src: url("../fonts/DMSans/DMSans-Regular.ttf");
+        font-family: 'Rubik Black';
+        src: url('../fonts/Rubik/Rubik-Black.ttf');
+        src: url('../fonts/Rubik/Rubik-Black.ttf') format('truetype');
     }
 
     @font-face {
-        font-family: "RubikMedium";
-        src: url("../fonts/DMSans/DMSans-Medium.ttf");
+        font-family: 'DMSans Regular';
+        src: url('../fonts/DMSans/DMSans-Regular.ttf');
+        src: url('../fonts/DMSans/DMSans-Regular.ttf') format('truetype');
     }
 
     @font-face {
-        font-family: "DMSansBold";
-        src: url("../fonts/DMSans/DMSans-Bold.ttf");
-    } */
+        font-family: 'DMSans Medium';
+        src: url('../fonts/DMSans/DMSans-Medium.ttf');
+        src: url('../fonts/DMSans/DMSans-Medium.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'DMSans Bold';
+        src: url('../fonts/DMSans/DMSans-Bold.ttf');
+        src: url('../fonts/DMSans/DMSans-Bold.ttf') format('truetype');
+    }
 
     .text-gradient {
         background-color: #fff;
@@ -77,19 +93,27 @@
         background-image: linear-gradient(141.55deg, #FF6600 -3.79%, #2042B8 82.82%);
     }
 
+    .bg-gradient-plus {
+        background: linear-gradient(135.18deg, #2042B8 10.17%, #FF6600 103.56%);
+    }
+
     .tab {
         overflow: hidden;
     }
+
     .tab-content {
         max-height: 0;
         transition: all 0.3s;
     }
+
     input:checked + .tab-label .test svg {
         transform: rotate(180deg);
     }
+
     input:checked + .tab-label::after {
         transform: rotate(90deg);
     }
+
     input:checked ~ .tab-content {
         max-height: 100vh;
     }

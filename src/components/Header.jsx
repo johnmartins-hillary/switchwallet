@@ -24,16 +24,25 @@ function Header() {
                     {/* Menu Items */}
                     <div className="hidden md:flex items-center space-x-1">
                         <Link to="/about" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/about' ? 'text-gradient' : ''}`}>Technology</Link>
-                        <Link to="/faq" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/pricing' ? 'text-gradient' : ''}`}>Pricing</Link>
+                        <Link to="/pricing" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/pricing' ? 'text-gradient' : ''}`}>Pricing</Link>
                         <Link to="/developers" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/developers' ? 'text-gradient' : ''}`}>Developers</Link>
                         <Link to="/support" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/support' ? 'text-gradient' : ''}`}>Support</Link>
                         <Link to="/login" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/login' ? 'text-gradient' : ''}`}>Login</Link>
-                        <Link to="/register"><button type='button' className='p-4 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-bold md:ml-0 ml-4'>Create Account</button></Link>
+                        <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer"><button type='button' className='p-4 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-bold md:ml-0 ml-4 md:my-0 my-5'>Create Account</button></a>
                     </div>
                     {/* Hamburger Icon */}
                     <div className="md:hidden flex items-center">
                         <button className="mobile-menu-button">
-                            <svg height="24" viewBox="0 0 30 24" width="30"><g fill="#000"><rect height="5.5" rx="2.75" width="29.333333"></rect><path d="m2.75 18.3333333h23.8333333c1.5187831 0 2.75 1.231217 2.75 2.75s-1.2312169 2.75-2.75 2.75h-23.8333333c-1.51878305 0-2.75-1.231217-2.75-2.75s1.23121695-2.75 2.75-2.75zm0-9.16666663h23.8333333c1.5187831 0 2.75 1.23121693 2.75 2.75000003 0 1.518783-1.2312169 2.75-2.75 2.75h-23.8333333c-1.51878305 0-2.75-1.231217-2.75-2.75 0-1.5187831 1.23121695-2.75000003 2.75-2.75000003z" opacity="0.7"></path></g></svg>
+                            <svg width="30" height="24" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 17H25V14.1664H0V17ZM0 9.91644H25V7.08355H0V9.91644ZM0 0V2.83355H25V0H0Z" fill="url(#paint0_linear_695_1242)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_695_1242" x1="2.94599" y1="2.5174e-07" x2="17.2169" y2="29.9668" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0.0428217" stop-color="#2042B8" />
+                                        <stop offset="0.883313" stop-color="#FF6600" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+
                         </button>
                     </div>
                 </div>
@@ -41,11 +50,11 @@ function Header() {
             {/* Mobile Menu */}
             <div className="mobile-menu hidden md:hidden">
                 <Link to="/about" className={`block py-2 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/about' ? 'text-gradient' : ''}`}>Technology</Link>
-                <Link to="/faq" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/pricing' ? 'text-gradient' : ''}`}>Pricing</Link>
+                <Link to="/pricing" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/pricing' ? 'text-gradient' : ''}`}>Pricing</Link>
                 <Link to="/developers" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/developers' ? 'text-gradient' : ''}`}>Developers</Link>
                 <Link to="/support" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/support' ? 'text-gradient' : ''}`}>Support</Link>
                 <Link to="/login" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/login' ? 'text-gradient' : ''}`}>Login</Link>
-                <Link to="/register"><button type='button' className='p-4 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-bold md:ml-0 ml-4'>Create Account</button></Link>
+                <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer"><button type='button' className='p-4 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-bold md:ml-0 ml-4 md:my-0 my-5'>Create Account</button></a>
             </div>
         </header>
     )

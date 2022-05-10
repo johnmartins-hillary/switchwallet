@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 function FAQ() {
     return (
         <Layout>
+
             <section>
                 <div className="max-w-7xl mx-auto text-center my-20 md:my-40 px-1">
                     <h1 className="text-4xl md:text-6xl my-4 font-rubik font-bold text-gradient mb-10">Get answer to your questions</h1>
@@ -16,6 +17,7 @@ function FAQ() {
                     </div>
                 </div>
             </section>
+
             <section className="container mx-auto bg-white pb-20">
                 <div tabIndex={0} aria-label="group of cards" className="focus:outline-none mt-20 flex flex-wrap justify-center gap-10 px-4">
                     <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 rounded-3xl border p-5">
@@ -160,6 +162,7 @@ function FAQ() {
                     </div>
                 </div>
             </section>
+
             <section className="max-w-7xl mx-auto bg-white md:py-40 py-10 md:px-0 px-5">
                 <h1 className="text-4xl md:text-6xl font-rubik font-bold text-gradient mb-20 text-center">Frequently Asked Questions</h1>
                 <div className='row'>
@@ -336,6 +339,7 @@ function FAQ() {
                     </div>
                 </div>
             </section>
+
         </Layout>
     )
 }

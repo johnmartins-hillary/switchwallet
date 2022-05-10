@@ -15,9 +15,9 @@ function Footer() {
                         <div>
                             <p className="font-dmsans font-medium text-lg">Technology</p>
                             <nav className="flex flex-col mt-4 space-y-2 text-base font-dmsans text-gray-500">
-                                <Link className="hover:opacity-75" to='#'>For Start-ups</Link>
-                                <Link className="hover:opacity-75" to='#'>For Enterpise</Link>
-                                <Link className="hover:opacity-75" to='#'>For Global Brands</Link>
+                                <Link className="hover:opacity-75" to='/startups'>For Start-ups</Link>
+                                <Link className="hover:opacity-75" to='/enterprise'>For Enterpise</Link>
+                                <Link className="hover:opacity-75" to='/global-brands'>For Global Brands</Link>
                             </nav>
                         </div>
                         <div>
