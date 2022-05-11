@@ -5,7 +5,7 @@ function CustomersReview() {
         <section className="flex items-center justify-center md:my-40 my-10">
             <div className="w-full container mx-auto">
                 <div className="text-center max-w-2xl mx-auto">
-                    <h1 className="font-rubik font-bold text-6xl md:text-5xl mb-5 text-black">Customers Review</h1>
+                    <h1 className="font-rubik font-bold text-4xl md:text-5xl mb-5 text-black">Customers Review</h1>
                     <h3 className="font-dmsans md:text-lg leading-relaxed text-gray-600 dark:text-gray-300 mt-10 mb-10 md:mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum, accumsan tincidunt vehicula quam odio.</h3>
                 </div>
                 <div className="md:flex items-start">
