@@ -23,11 +23,11 @@ function Header() {
                     </div>
                     {/* Menu Items */}
                     <div className="hidden md:flex items-center space-x-1">
-                        <Link to="/about" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/about' ? 'text-gradient' : ''}`}>Technology</Link>
-                        <Link to="/pricing" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/pricing' ? 'text-gradient' : ''}`}>Pricing</Link>
+                        <Link to="/about" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/about' ? 'text-gradient' : ''}`}>About</Link>
+                        {/* <Link to="/pricing" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/pricing' ? 'text-gradient' : ''}`}>Pricing</Link> */}
                         <Link to="/developers" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/developers' ? 'text-gradient' : ''}`}>Developers</Link>
-                        <Link to="/support" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/support' ? 'text-gradient' : ''}`}>Support</Link>
-                        <Link to="/login" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/login' ? 'text-gradient' : ''}`}>Login</Link>
+                        {/* <Link to="/support" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/support' ? 'text-gradient' : ''}`}>Support</Link> */}
+                        <a href="https://stg-integrations.switchwallet.io/auth/login" target="_blank" rel="noopener noreferrer" className={`py-5 px-3 text-lg font-dmsans font-medium hover:text-gradient transition duration-300 ease-in ${pathname === '/login' ? 'text-gradient' : ''}`}>Login</a>
                         <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer"><button type='button' className='p-4 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-bold md:ml-0 ml-4 md:my-0 my-5'>Create Account</button></a>
                     </div>
                     {/* Hamburger Icon */}
@@ -37,23 +37,22 @@ function Header() {
                                 <path d="M0 17H25V14.1664H0V17ZM0 9.91644H25V7.08355H0V9.91644ZM0 0V2.83355H25V0H0Z" fill="url(#paint0_linear_695_1242)" />
                                 <defs>
                                     <linearGradient id="paint0_linear_695_1242" x1="2.94599" y1="2.5174e-07" x2="17.2169" y2="29.9668" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0.0428217" stop-color="#2042B8" />
-                                        <stop offset="0.883313" stop-color="#FF6600" />
+                                        <stop offset="0.0428217" stopColor="#2042B8" />
+                                        <stop offset="0.883313" stopColor="#FF6600" />
                                     </linearGradient>
                                 </defs>
                             </svg>
-
                         </button>
                     </div>
                 </div>
             </div>
             {/* Mobile Menu */}
             <div className="mobile-menu hidden md:hidden">
-                <Link to="/about" className={`block py-2 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/about' ? 'text-gradient' : ''}`}>Technology</Link>
-                <Link to="/pricing" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/pricing' ? 'text-gradient' : ''}`}>Pricing</Link>
+                <Link to="/about" className={`block py-2 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/about' ? 'text-gradient' : ''}`}>About</Link>
+                {/* <Link to="/pricing" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/pricing' ? 'text-gradient' : ''}`}>Pricing</Link> */}
                 <Link to="/developers" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/developers' ? 'text-gradient' : ''}`}>Developers</Link>
-                <Link to="/support" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/support' ? 'text-gradient' : ''}`}>Support</Link>
-                <Link to="/login" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/login' ? 'text-gradient' : ''}`}>Login</Link>
+                {/* <Link to="/support" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/support' ? 'text-gradient' : ''}`}>Support</Link> */}
+                <a href="https://stg-integrations.switchwallet.io/auth/login" target="_blank" rel="noopener noreferrer" className={`block pt-2 pb-3 px-4 text-lg font-dmsans font-medium hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/login' ? 'text-gradient' : ''}`}>Login</a>
                 <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer"><button type='button' className='p-4 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-bold md:ml-0 ml-4 md:my-0 my-5'>Create Account</button></a>
             </div>
         </header>

@@ -73,19 +73,6 @@ function GlobalBrands() {
                 </div>
             </section>
 
-            <section>
-                <div className="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row md:my-44">
-                    <div className="md:w-2/3 flex flex-col">
-                        <h5 className='font-dmsans font-medium text-xl mb-5 text-gradient my-10'>Why Choose us</h5>
-                        <h1 className="font-rubik font-bold text-slate-700 text-2xl md:text-5xl md:text-left md:mt-0 mb-10">Specialist aiding client <br /> on financial challenges</h1>
-                        <p className="md:w-2/3 md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-                    </div>
-                    <div className="md:w-1/2 flex items-end justify-end">
-                        <img className='w-full' src="assets/images/pay.svg" alt="Developers" />
-                    </div>
-                </div>
-            </section>
-
             <MindBlowing />
 
             <CustomersReview />
