@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useEffect } from "react";
+import AOS from "aos";
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
 
 function Home() {
+    useEffect(() => {
+        AOS.init({
+            delay: 200,
+            duration: 1000,
+            once: false
+        });
+    }, []);
     return (
         <Layout>
 
             <section>
                 <div className="container flex flex-col-reverse items-center px-6 mx-auto md:mt-20 mt-10 space-y-0 md:space-y-0 md:flex-row">
-                    <div className="flex flex-col md:w-1/2">
+                    <div className="flex flex-col md:w-1/2" data-aos="fade-up">
                         <h1 className="max-w-md text-3xl font-rubik font-bold text-gradient md:text-4xl md:text-left md:mt-0 mt-10 mb-14">
                             Fastest Blockchain Payment Gateway your business deserve
                         </h1>
@@ -30,7 +38,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="md:w-1/2 flex items-center justify-center">
+                    <div className="md:w-1/2 flex items-center justify-center" data-aos="fade-left">
                         <img src="assets/images/map.svg" alt="Map" />
                     </div>
                 </div>
@@ -41,7 +49,7 @@ function Home() {
                     <h1 className='text-4xl md:text-5xl my-4 font-rubik font-bold'>Fast n’ Simple payment for you </h1>
                     <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Built for your Business to connect more customer</p>
                 </div>
-                <div className="max-w-7xl mx-auto flex flex-col md:flex-row">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row mt-12 md:mt-0">
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12">
                         <div className="container">
                             <div className="relative flex flex-col min-w-0 break-words w-full">
@@ -58,8 +66,8 @@ function Home() {
                 </div>
             </section>
 
-            <section className="py-4 text-dark">
-                <div className="max-w-7xl mx-auto flex flex-col md:flex-row my-12 md:my-36">
+            <section className="md:py-4 text-dark">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row mb-12 md:mb-36">
                     <div className="flex flex-col w-full lg:w-2/5 p-8 md:order-1 order-2">
                         <h1 className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">Fiat-to-Crypto Payment</h1>
                         <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum, accumsan tincidunt vehicula quam odio.</p>
@@ -75,7 +83,7 @@ function Home() {
             </section>
 
             <section className="py-4 text-dark">
-                <div className="max-w-7xl mx-auto flex flex-col md:flex-row my-12 md:my-36">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row mb-12 md:mb-36">
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12">
                         <div className="container">
                             <div className="relative flex flex-col min-w-0 break-words w-full">
@@ -113,8 +121,8 @@ function Home() {
                                 <Link to="#">
                                     <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-2 border-amber-700 rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
                                         Get Started
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg>
                                     </button>
                                 </Link>
@@ -130,8 +138,8 @@ function Home() {
                                 <Link to="#">
                                     <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-2 border-amber-700 rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
                                         Get Started
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg>
                                     </button>
                                 </Link>
@@ -139,7 +147,7 @@ function Home() {
                         </div>
                         <div className="w-full md:w-1/2 lg:w-1/3 px-4">
                             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-lg mb-8 ">
-                                <div className=" w-[70px] h-[70px] flex items-center justify-center bg-primary rounded-2xl mb-8 ">
+                                <div className="w-[70px] h-[70px] flex items-center justify-center bg-primary rounded-2xl mb-8 ">
                                     <img src='assets/images/community.svg' alt='Community' />
                                 </div>
                                 <h2 className="text-3xl text-dark mb-5 font-rubik font-bold">Switch Wallet For Global Brand</h2>
@@ -147,8 +155,8 @@ function Home() {
                                 <Link to="#">
                                     <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-2 border-amber-700 rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
                                         Get Started
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg>
                                     </button>
                                 </Link>
@@ -182,7 +190,7 @@ function Home() {
                     <div className="lg:w-2/5 w-full lg:flex lg:flex-row hidden items-center justify-center">
                         <img src="assets/images/big_logo.svg" alt="big logo" className="h-96 w-full" />
                         <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer" className='absolute'>
-                            <button type='button' className='p-4 bg-white hover:bg-white md:w-56 w-40 rounded-full cursor-pointer'>
+                            <button type='button' className='p-4 bg-white hover:bg-white md:w-60 w-40 rounded-full cursor-pointer'>
                                 <p className='text-gradient font-dmsans font-bold text-lg'>Create Account</p>
                             </button>
                         </a>

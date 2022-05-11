@@ -97,6 +97,10 @@
         background: linear-gradient(135.18deg, #2042B8 10.17%, #FF6600 103.56%);
     }
 
+    .border-gradient {
+
+    }
+
     .tab {
         overflow: hidden;
     }
