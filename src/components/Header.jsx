@@ -14,7 +14,7 @@ function Header() {
     }, []);
 
     return (
-        <header className="left-0 right-0 bg-white z-50">
+        <header className="sticky top-0 left-0 right-0 bg-white z-50">
             <div className="container mx-auto px-4">
                 <div className="flex justify-between">
                     <div className="flex space-x-4">
