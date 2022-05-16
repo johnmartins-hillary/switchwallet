@@ -27,12 +27,30 @@ function Startups() {
             </section>
 
             <section>
-                <div className="container mx-auto flex flex-col md:flex-row">
+                <div className="container mx-auto flex flex-col md:flex-row my-10 md:my-40">
+                    <div className="flex flex-col w-full lg:w-2/4 p-8 md:order-1 order-2">
+                        <h5 className='font-dmsans font-medium text-xl text-slate-700 text-gradient'>Our Features</h5>
+                        <h1 className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">Receive payment quickly from anywhere</h1>
+                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.</p>
+                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per </p>
+                    </div>
+                    <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
+                        <div className="relative flex flex-col min-w-0 break-words w-full">
+                            <div className="flex-auto p-5 lg:p-10 flex justify-center">
+                                <img src="assets/images/startup2.svg" alt="Enterpise" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div className="container mx-auto flex flex-col md:flex-row md:my-40">
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12">
                         <div className="container">
                             <div className="relative flex flex-col min-w-0 break-words w-full">
                                 <div className="flex-auto p-5 lg:p-10">
-                                    <img src="assets/images/Enterpise2.svg" alt="Enterpise" />
+                                    <img src="assets/images/startup3.svg" alt="Startups" className='w-full md:w-4/6' />
                                 </div>
                             </div>
                         </div>
@@ -46,7 +64,7 @@ function Startups() {
             </section>
 
             <section>
-                <div className="container mx-auto flex flex-col md:flex-row mt-20">
+                <div className="container mx-auto flex flex-col md:flex-row mt-40">
                     <div className="flex flex-col w-full lg:w-2/4 p-8 md:order-1 order-2">
                         <h5 className='font-dmsans font-medium text-xl text-slate-700 text-gradient'>Our Features</h5>
                         <h1 className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">All payments are linked to your financy account</h1>
@@ -55,7 +73,7 @@ function Startups() {
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
                             <div className="flex-auto p-5 lg:p-10 flex justify-end">
-                                <img src="assets/images/startup3.svg" alt="Startups" className='w-full md:w-4/6' />
+                                <img src="assets/images/Enterpise2.svg" alt="Enterpise" />
                             </div>
                         </div>
                     </div>

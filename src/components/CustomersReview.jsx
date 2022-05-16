@@ -10,7 +10,7 @@ function CustomersReview() {
                 </div>
                 <div className="md:flex items-start">
                     <div className="px-3 md:w-1/3">
-                        <div className="w-full mx-auto rounded-2xl bg-white shadow-lg p-5 text-gray-800 font-light mb-6">
+                        <div className="w-full mx-auto rounded-[20px] bg-white shadow-lg p-5 text-gray-800 font-light mb-6">
                             <div className="w-full flex items-center">
                                 <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M20 0C8.9543 0 0 9.17236 0 20.4871C0 31.8018 8.9543 40.9741 20 40.9741C31.0457 40.9741 40 31.8018 40 20.4871C40 9.17236 31.0457 0 20 0ZM18.4692 9.64333L19.3286 13.6973C16.8106 14.2682 14.4951 15.0108 14.6826 17.8912H17.6416V28.6799H8.72803V18.5964C8.7312 10.5829 14.4747 9.93086 18.4692 9.64333ZM30.4102 9.64333L31.272 13.6973C28.7539 14.2682 26.4385 15.0108 26.626 17.8912H29.585V28.6799H20.6714V18.5964C20.6745 10.5829 26.4157 9.93086 30.4102 9.64333Z" fill="#2042B8" />
@@ -30,7 +30,7 @@ function CustomersReview() {
                         </div>
                     </div>
                     <div className="px-3 md:w-1/3">
-                        <div className="w-full mx-auto rounded-2xl bg-white shadow-lg p-5 text-gray-800 font-light mb-6">
+                        <div className="w-full mx-auto rounded-[20px] bg-white shadow-lg p-5 text-gray-800 font-light mb-6">
                             <div className="w-full flex items-center">
                                 <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M20 0C8.9543 0 0 9.17236 0 20.4871C0 31.8018 8.9543 40.9741 20 40.9741C31.0457 40.9741 40 31.8018 40 20.4871C40 9.17236 31.0457 0 20 0ZM18.4692 9.64333L19.3286 13.6973C16.8106 14.2682 14.4951 15.0108 14.6826 17.8912H17.6416V28.6799H8.72803V18.5964C8.7312 10.5829 14.4747 9.93086 18.4692 9.64333ZM30.4102 9.64333L31.272 13.6973C28.7539 14.2682 26.4385 15.0108 26.626 17.8912H29.585V28.6799H20.6714V18.5964C20.6745 10.5829 26.4157 9.93086 30.4102 9.64333Z" fill="#2042B8" />
@@ -50,7 +50,7 @@ function CustomersReview() {
                         </div>
                     </div>
                     <div className="px-3 md:w-1/3">
-                        <div className="w-full mx-auto rounded-2xl bg-white shadow-lg p-5 text-gray-800 font-light mb-6">
+                        <div className="w-full mx-auto rounded-[20px] bg-white shadow-lg p-5 text-gray-800 font-light mb-6">
                             <div className="w-full flex items-center">
                                 <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M20 0C8.9543 0 0 9.17236 0 20.4871C0 31.8018 8.9543 40.9741 20 40.9741C31.0457 40.9741 40 31.8018 40 20.4871C40 9.17236 31.0457 0 20 0ZM18.4692 9.64333L19.3286 13.6973C16.8106 14.2682 14.4951 15.0108 14.6826 17.8912H17.6416V28.6799H8.72803V18.5964C8.7312 10.5829 14.4747 9.93086 18.4692 9.64333ZM30.4102 9.64333L31.272 13.6973C28.7539 14.2682 26.4385 15.0108 26.626 17.8912H29.585V28.6799H20.6714V18.5964C20.6745 10.5829 26.4157 9.93086 30.4102 9.64333Z" fill="#2042B8" />
