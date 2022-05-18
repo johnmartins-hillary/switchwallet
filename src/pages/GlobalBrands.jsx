@@ -1,7 +1,7 @@
 import React from 'react';
-import CustomersReview from '../components/CustomersReview';
 import Layout from '../components/Layout';
 import MindBlowing from '../components/MindBlowing';
+// import CustomersReview from '../components/CustomersReview';
 
 function GlobalBrands() {
     return (
@@ -11,7 +11,7 @@ function GlobalBrands() {
                 <div className="max-w-7xl flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row my-20">
                     <div className="md:w-2/3 flex flex-col">
                         <h1 className="font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mt-16 mb-10">API suite to build amazing payments experiences</h1>
-                        <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum.</p>
+                        <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">There's never been a faster, easier, more reliable payment gateway for your business. SwitchWallet provides excellent customer experiences when dealing with digital payments.</p>
                         <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
                             <button type='button' className='p-4 md:w-56 w-52 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
                         </a>
@@ -147,7 +147,7 @@ function GlobalBrands() {
 
             <MindBlowing />
 
-            <CustomersReview />
+            {/* <CustomersReview /> */}
 
         </Layout>
     )

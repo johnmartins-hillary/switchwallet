@@ -1,6 +1,6 @@
 import React from 'react';
-import CustomersReview from '../components/CustomersReview';
 import Layout from '../components/Layout';
+// import CustomersReview from '../components/CustomersReview';
 
 function Startups() {
     return (
@@ -10,7 +10,7 @@ function Startups() {
                 <div className="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row">
                     <div className="md:w-2/3 flex flex-col">
                         <h1 className="font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mt-16 mb-10">API suite to build amazing payments experiences</h1>
-                        <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum.</p>
+                        <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">There's never been a faster, easier, more reliable payment gateway for your business. SwitchWallet provides excellent customer experiences when dealing with digital payments.</p>
                         <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
                             <button type='button' className='p-4 md:w-56 w-52 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
                         </a>
@@ -31,8 +31,7 @@ function Startups() {
                     <div className="flex flex-col w-full lg:w-2/4 p-8 md:order-1 order-2">
                         <h5 className='font-dmsans font-medium text-xl text-slate-700 text-gradient'>Our Features</h5>
                         <h1 className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">Receive payment quickly from anywhere</h1>
-                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.</p>
-                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per </p>
+                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Switch Wallet is the one of the fastest Bitcoin and blockchain payment gateway on the market with a Global footprint. You are assured your customers can pay  and receive payments quickly, conveniently and securely with either cryptocurrency or via bank transfer. We're your new choice for a payment gateway provider.</p>
                     </div>
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
@@ -126,7 +125,7 @@ function Startups() {
                 </div>
             </section>
 
-            <CustomersReview />
+            {/* <CustomersReview /> */}
 
         </Layout>
     )

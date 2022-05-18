@@ -524,7 +524,7 @@ code {
 
 .text-gradient {
   background-color: #fff;
-  background: linear-gradient(141.55deg, #FF6600 -3.79%, #2042B8 82.82%);
+  background: linear-gradient(145deg, #2042B8 10.3%, #FF6600 117.2%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -547,17 +547,17 @@ code {
   transition: all 0.3s;
 }
 
-input:checked + .tab-label .test svg {
+input:checked+.tab-label .test svg {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-input:checked + .tab-label::after {
+input:checked+.tab-label::after {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
 
-input:checked ~ .tab-content {
+input:checked~.tab-content {
   max-height: 100vh;
 }
 
@@ -677,12 +677,12 @@ input:checked ~ .tab-content {
   z-index: 30;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .z-40 {
   z-index: 40;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .order-2 {
@@ -740,6 +740,11 @@ input:checked ~ .tab-content {
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.my-40 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .mb-5 {
@@ -802,16 +807,16 @@ input:checked ~ .tab-content {
   margin-top: 0.25rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
 .mt-16 {
   margin-top: 4rem;
 }
 
 .mt-12 {
   margin-top: 3rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .ml-5 {
@@ -850,6 +855,10 @@ input:checked ~ .tab-content {
   margin-top: 10rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -864,6 +873,10 @@ input:checked ~ .tab-content {
 
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
 }
 
 .hidden {
@@ -980,6 +993,10 @@ input:checked ~ .tab-content {
   max-width: 28rem;
 }
 
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .max-w-xl {
   max-width: 36rem;
 }
@@ -996,8 +1013,17 @@ input:checked ~ .tab-content {
   max-width: 510px;
 }
 
-.max-w-lg {
-  max-width: 32rem;
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+.max-w-max {
+  max-width: -webkit-max-content;
+  max-width: max-content;
 }
 
 .flex-auto {
@@ -1115,6 +1141,12 @@ input:checked ~ .tab-content {
   --tw-space-y-reverse: 0;
   margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -1411,14 +1443,19 @@ input:checked ~ .tab-content {
   line-height: 1;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -1547,11 +1584,6 @@ input:checked ~ .tab-content {
   color: rgb(82 87 92 / var(--tw-text-opacity));
 }
 
-.text-\[\#3B3B3B\] {
-  --tw-text-opacity: 1;
-  color: rgb(59 59 59 / var(--tw-text-opacity));
-}
-
 .opacity-0 {
   opacity: 0;
 }
@@ -1586,7 +1618,7 @@ input:checked ~ .tab-content {
 
 .hover\:text-gradient:hover {
   background-color: #fff;
-  background: linear-gradient(141.55deg, #FF6600 -3.79%, #2042B8 82.82%);
+  background: linear-gradient(145deg, #2042B8 10.3%, #FF6600 117.2%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1608,7 +1640,7 @@ input:checked ~ .tab-content {
 
 .focus\:text-gradient:focus {
   background-color: #fff;
-  background: linear-gradient(141.55deg, #FF6600 -3.79%, #2042B8 82.82%);
+  background: linear-gradient(145deg, #2042B8 10.3%, #FF6600 117.2%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1879,6 +1911,11 @@ input:checked ~ .tab-content {
     padding-bottom: 5rem;
   }
 
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1898,14 +1935,14 @@ input:checked ~ .tab-content {
     line-height: 1;
   }
 
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:text-\[40px\] {
