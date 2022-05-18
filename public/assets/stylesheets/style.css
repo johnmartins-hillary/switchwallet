@@ -636,10 +636,6 @@ input:checked ~ .tab-content {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -653,16 +649,16 @@ input:checked ~ .tab-content {
   position: sticky;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
 
 .right-0 {
   right: 0px;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .top-6 {
