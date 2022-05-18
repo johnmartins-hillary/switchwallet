@@ -3,11 +3,15 @@
 @tailwind utilities;
 
 @layer base {
+    * {
+        font-family: 'Rubik', 'DM Sans', sans-serif;
+    }
+
     html {
         font-family: 'Rubik', 'DM Sans', sans-serif;
         scroll-behavior: smooth;
     }
-    
+
     body {
         margin: 0;
         padding: 0;
@@ -82,7 +86,7 @@
 
     .text-gradient {
         background-color: #fff;
-        background-image: linear-gradient(141.55deg, #FF6600 -3.79%, #2042B8 82.82%);
+        background: linear-gradient(145deg, #2042B8 10.3%, #FF6600 117.2%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -97,7 +101,7 @@
         background: linear-gradient(135.18deg, #2042B8 10.17%, #FF6600 103.56%);
     }
 
-    .border-gradient {        
+    .border-gradient {
         border-color: rgb(180 83 9);
     }
 
@@ -110,15 +114,15 @@
         transition: all 0.3s;
     }
 
-    input:checked + .tab-label .test svg {
+    input:checked+.tab-label .test svg {
         transform: rotate(180deg);
     }
 
-    input:checked + .tab-label::after {
+    input:checked+.tab-label::after {
         transform: rotate(90deg);
     }
 
-    input:checked ~ .tab-content {
+    input:checked~.tab-content {
         max-height: 100vh;
     }
 }
