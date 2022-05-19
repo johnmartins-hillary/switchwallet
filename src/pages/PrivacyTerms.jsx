@@ -46,13 +46,13 @@ function PrivacyTerms() {
                     </div>
                     <div className=''>
                         <h5 className='mb-5 font-dmsans font-bold text-3xl text-[#25282B]'>Limitation of Liability</h5>
-                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>To the fullest extent permitted under applicable laws, in no event shall Xend Finance Limited be liable to you with respect to use of this App and/or be liable to you for any direct, indirect, special or consequential damages, including without limitation to damages for loss of goodwill, loss of profit, theft or corruption of your information, the inability to use the App and any connected device failure or malfunction thereof.</p>
+                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>To the fullest extent permitted under applicable laws, in no event shall Switch Wallet Limited be liable to you with respect to use of this App and/or be liable to you for any direct, indirect, special or consequential damages, including without limitation to damages for loss of goodwill, loss of profit, theft or corruption of your information, the inability to use the App and any connected device failure or malfunction thereof.</p>
                         <p className='text-lg md:text-xl mb-10 text-[#52575C]'>We shall not be liable even if it has been advised of the possibility of such damages, including without limitation to damages caused by error, omission, interruption, defect, failure of performance, unauthorized use, delay in operation or transmission, line failure, computer virus, worm, Trojan horse or other harm.</p>
                         <p className='text-lg md:text-xl mb-10 text-[#52575C]'>In the event that any applicable law does not allow the exclusion of certain promises and/or the exclusion of liability for direct, indirect, consequential or other damages, such liability arising under or in connection with these Terms and Conditions and your use of the App shall not exceed $50.</p>
                     </div>
                     <div className=''>
                         <h5 className='mb-5 font-dmsans font-bold text-3xl text-[#25282B]'>Indemnification</h5>
-                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>You hereby indemnify to the fullest extent Xend Finance Limited from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising out of or in any way related to your breach of any of the provisions of these Terms and Conditions.</p>
+                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>You hereby indemnify to the fullest extent Switch Wallet Limited from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising out of or in any way related to your breach of any of the provisions of these Terms and Conditions.</p>
                     </div>
                     <div className=''>
                         <h5 className='mb-5 font-dmsans font-bold text-3xl text-[#25282B]'>Severability</h5>
@@ -60,19 +60,19 @@ function PrivacyTerms() {
                     </div>
                     <div className=''>
                         <h5 className='mb-5 font-dmsans font-bold text-3xl text-[#25282B]'>Variation of Terms</h5>
-                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>Xend Finance Limited is permitted to revise these Terms and Conditions at any time as it sees fit, and by using this App, you are expected to review these Terms and Conditions on a regular basis so as to track such changes.</p>
+                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>Switch Wallet Limited is permitted to revise these Terms and Conditions at any time as it sees fit, and by using this App, you are expected to review these Terms and Conditions on a regular basis so as to track such changes.</p>
                     </div>
                     <div className=''>
                         <h5 className='mb-5 font-dmsans font-bold text-3xl text-[#25282B]'>Assignment</h5>
-                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>Xend Finance Limited is at liberty to assign, transfer, and subcontract its rights and/or obligations, in whole or in part, under these Terms and Conditions without any prior notification to you. However, you are not allowed to assign, transfer, or subcontract any or all of your rights and/or obligations under these Terms and Conditions, except with the requisite approval of Xend Finance Limited.</p>
+                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>Switch Wallet Limited is at liberty to assign, transfer, and subcontract its rights and/or obligations, in whole or in part, under these Terms and Conditions without any prior notification to you. However, you are not allowed to assign, transfer, or subcontract any or all of your rights and/or obligations under these Terms and Conditions, except with the requisite approval of Switch Wallet Limited.</p>
                     </div>
                     <div className=''>
                         <h5 className='mb-5 font-dmsans font-bold text-3xl text-[#25282B]'>Entire Agreement</h5>
-                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>These Terms constitute the entire agreement between Xend Finance Limited and you in relation to your use of this App, and it supersedes all prior agreements and understanding if any.</p>
+                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>These Terms constitute the entire agreement between Switch Wallet Limited and you in relation to your use of this App, and it supersedes all prior agreements and understanding if any.</p>
                     </div>
                     <div className=''>
                         <h5 className='mb-5 font-dmsans font-bold text-3xl text-[#25282B]'>Governing Laws & Jurisdiction</h5>
-                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>These Terms and Conditions is governed by and interpreted in accordance with the laws of Enugu State of Nigeria. In the event of any dispute arising between Xend Finance Limited and you, you agree that such dispute shall be resolved by mediation in accordance with the mediation procedures administered by Enugu State Multi Door Courthouse. Where such a body ceases to exist, either Party shall be at liberty to refer the dispute to arbitration. The arbitration shall be conducted in accordance with the provisions of the Arbitration and Conciliation Act, Chapter A18, Laws of the Federation of Nigeria, 2004.</p>
+                        <p className='text-lg md:text-xl mb-10 text-[#52575C]'>These Terms and Conditions is governed by and interpreted in accordance with the laws of Enugu State of Nigeria. In the event of any dispute arising between Switch Wallet Limited and you, you agree that such dispute shall be resolved by mediation in accordance with the mediation procedures administered by Enugu State Multi Door Courthouse. Where such a body ceases to exist, either Party shall be at liberty to refer the dispute to arbitration. The arbitration shall be conducted in accordance with the provisions of the Arbitration and Conciliation Act, Chapter A18, Laws of the Federation of Nigeria, 2004.</p>
                     </div>
                 </div>
             </section>
