@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       fontFamily: {
         rubik: ['Rubik', 'sans-serif'],
-        dmsans: ['DM Sans', 'sans-serif']
+        dmsans: ['DM Sans', 'sans-serif'],
+        manrope: ['Manrope', 'sans-serif']
       },
     },
   },
