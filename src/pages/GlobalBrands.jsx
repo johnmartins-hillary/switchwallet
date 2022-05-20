@@ -10,14 +10,14 @@ function GlobalBrands() {
             <section>
                 <div className="max-w-7xl flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row my-20">
                     <div className="md:w-2/3 flex flex-col">
-                        <h1 className="font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mt-16 mb-10">API suite to build amazing payments experiences</h1>
-                        <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">There's never been a faster, easier, more reliable payment gateway for your business. SwitchWallet provides excellent customer experiences when dealing with digital payments.</p>
+                        <h1 className="font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mt-16 mb-10">API suite to build amazing wallet infrastructure service experiences</h1>
+                        <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">There's never been a faster, easier, more reliable payment gateway for your business. SwitchWallet provides excellent customer experiences when dealing with digital wallet infrastructure service.</p>
                         <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
                             <button type='button' className='p-4 md:w-56 w-52 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
                         </a>
                     </div>
                     <div className="md:w-1/2 flex items-end justify-end">
-                        <img src="assets/images/global-payments.svg" alt="Global Payments" />
+                        <img src="assets/images/global-wallet infrastructure service.svg" alt="Global wallet infrastructure service" />
                     </div>
                 </div>
             </section>
@@ -29,7 +29,7 @@ function GlobalBrands() {
 
             <section className='my-20 md:my-60'>
                 <div className="container px-6 py-10 mx-auto">
-                    <h1 className="font-rubik font-bold text-slate-700 text-2xl md:text-5xl text-center dark:text-white">Specially Designed for Payments</h1>
+                    <h1 className="font-rubik font-bold text-slate-700 text-2xl md:text-5xl text-center dark:text-white">Specially Designed for wallet infrastructure service</h1>
                     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-32 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
                         <div className="p-8 border bg-white z-30">
                             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -45,7 +45,7 @@ function GlobalBrands() {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Modern Cards</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">End-to-end payments and financial management in a single solution. Meet the right platform.</p>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform.</p>
                         </div>
                         <div className="p-8 border bg-white z-30">
                             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -57,7 +57,7 @@ function GlobalBrands() {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">No Extra Fee</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">End-to-end payments and financial management in a single solution. Meet the right platform.</p>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform.</p>
                         </div>
                         <div className="p-8 border bg-white z-30">
                             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -67,7 +67,7 @@ function GlobalBrands() {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Super Secure</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">End-to-end payments and financial management in a single solution. Meet the right platform.</p>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform.</p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ function GlobalBrands() {
                                 </span>
                                 <div className="mt-4 md:mx-4 md:mt-0">
                                     <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold dark:text-white">First Working Process</h1>
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform to help realize.</p>
                                 </div>
                             </div>
                             <div className="md:flex md:items-start md:-mx-4">
@@ -115,7 +115,7 @@ function GlobalBrands() {
                                 </span>
                                 <div className="mt-4 md:mx-4 md:mt-0">
                                     <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold dark:text-white">Dedicated Team</h1>
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform to help realize.</p>
                                 </div>
                             </div>
                             <div className="md:flex md:items-start md:-mx-4">
@@ -134,7 +134,7 @@ function GlobalBrands() {
                                 </span>
                                 <div className="mt-4 md:mx-4 md:mt-0">
                                     <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold dark:text-white">24/7 Hours Support</h1>
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform to help realize.</p>
                                 </div>
                             </div>
                         </div>

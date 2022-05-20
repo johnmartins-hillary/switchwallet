@@ -21,10 +21,10 @@ function Startups() {
                 </div>
             </section>
 
-            <section className='container mx-auto text-center md:my-28 my-16 md:px-0 px-10'>
+            {/* <section className='container mx-auto text-center md:my-28 my-16 md:px-0 px-10'>
                 <h5 className='font-rubik font-normal text-xl mb-5'>Over 12k+ business growing with Switchwallet</h5>
                 <img className='mx-auto' src="assets/images/brands.svg" alt="Brands" />
-            </section>
+            </section> */}
 
             <section>
                 <div className="container mx-auto flex flex-col md:flex-row my-10 md:my-40">

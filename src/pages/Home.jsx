@@ -9,11 +9,11 @@ function Home() {
             <section>
                 <div className="container flex flex-col-reverse items-center px-6 mx-auto md:mt-20 mt-10 space-y-0 md:space-y-0 md:flex-row">
                     <div className="flex flex-col md:w-1/2">
-                        <h1 className="max-w-xl text-2xl font-rubik font-bold text-gradient md:text-5xl md:text-left md:mt-0 mt-10 mb-14">
-                            Fastest Blockchain Payment Gateway your business deserve
+                        <h1 className="max-w-xl text-3xl md:text-5xl md:text-left text-gradient font-rubik font-bold md:mt-0 mt-10 mb-14 capitalize">
+                            Fastest blockchain wallet infrastructure for business
                         </h1>
                         <p className="max-w-md font-manrope font-medium text-base md:text-left mb-14 text-[#52575C]">
-                            Switch Wallet is an enterprise-grade wallet for blockchain payments. Leveraging our patented UP-TAP™ technology, you can securely process transactions in a fraction of the time of any other platform.</p>
+                            Switch Wallet is an enterprise-grade wallet infrastructure for blockchain services. Leveraging our patented UP-TAP™ technology, you can securely process transactions in a fraction of the time of any other platform.</p>
                         <div className="flex justify-center md:justify-start md:gap-5 gap-2">
                             <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
                                 <button type='button' className='p-4 w-40 md:w-56 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
@@ -189,7 +189,7 @@ function Home() {
                 <div className="rounded-3xl mt-10 md:mt-32 mb-20 flex flex-row bg-gradient-plus text-white">
                     <div className="lg:w-3/5 w-full p-12">
                         <div className="lg:w-2/3">
-                            <h3 className="font-rubik font-bold mb-10 text-2xl md:text-4xl">A set way to taking your business to the next level</h3>
+                            <h3 className="font-rubik font-bold mb-10 text-2xl md:text-4xl">A set way to take your business to the next level</h3>
                             <p className="font-dmsans font-bold mb-4 md:text-lg text-[#A7A7A7]">We accept multiple cryptocurrencies and convert them to fiat at the time of transaction.</p>
                         </div>
                     </div>
