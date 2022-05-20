@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
-import CustomersReview from '../components/CustomersReview';
+// import CustomersReview from '../components/CustomersReview';
 
 function Enterprise() {
     return (
@@ -140,7 +140,7 @@ function Enterprise() {
                 </div>
             </section>
 
-            <CustomersReview />
+            {/* <CustomersReview /> */}
         </Layout>
     )
 }

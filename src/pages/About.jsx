@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import GetStarted from '../components/GetStarted';
 
 function About() {
     return (
@@ -10,7 +11,7 @@ function About() {
                     <div className="flex flex-col md:w-1/2">
                         <h1 className="max-w-md text-3xl font-rubik font-bold text-gray-700 md:text-6xl md:text-left md:mt-0 mt-10 mb-14">About Us</h1>
                         <p className="max-w-lg md:text-left text-gray-500 font-dmsans font-normal text-base md:text-xl mb-14">
-                            Switch Wallet is a one-stop destination for wallet payments for cryptocurrency investors, traders, payment providers, and merchants looking for a reliable alternative. For the first time, it's possible to keep all your business funds in one place and access them instantly, at any time and from anywhere.
+                            Switch Wallet is a one-stop destination for wallet infrastructure service for cryptocurrency investors, traders, wallet service providers, and merchants looking for a reliable alternative. For the first time, it's possible to keep all your business funds in one place and access them instantly, at any time and from anywhere.
                         </p>
                     </div>
                     <div className="md:w-1/2 flex items-end justify-end">
@@ -57,17 +58,17 @@ function About() {
                         </div>
                     </div>
                     <div className="flex flex-col lg:w-3/6 w-full p-8">
-                        <h1 className="text-2xl md:text-4xl my-4 font-rubik font-bold">Secure, low-cost International Payment Processing Service </h1>
-                        <p className="font-dmsans font-normal text-base md:text-xl my-2 md:my-4 text-slate-500">We are a payment processing service that helps businesses save time and money. With our easy, simple and cost-effective international payment setup, we'll have your business experiencing an increase in sales in no time. Switch Wallet offers competitive rates, fast & secure transactions, and a variety of customizable features to help your business succeed.</p>
+                        <h1 className="text-2xl md:text-4xl my-4 font-rubik font-bold">Secure, low-cost International Wallet Infrastructure Service </h1>
+                        <p className="font-dmsans font-normal text-base md:text-xl my-2 md:my-4 text-slate-500">We are a Wallet Infrastructure Service that helps businesses save time and money. With our easy, simple and cost-effective international wallet infrastructure service setup, we'll have your business experiencing an increase in sales in no time. Switch Wallet offers competitive rates, fast & secure transactions, and a variety of customizable features to help your business succeed.</p>
                     </div>
                 </div>
             </section>
 
             <section className="py-4 text-dark">
-                <div className="max-w-7xl mx-auto flex flex-col md:flex-row my-12 md:my-20">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row my-12 md:mt-20">
                     <div className="flex flex-col w-full lg:w-2/5 p-8 md:order-1 order-2">
                         <h1 className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">Our Mission</h1>
-                        <p className="font-dmsans font-normal text-base md:text-xl my-2 md:my-4 text-slate-500">To provide customers with the most convenient and seamless payment experience while using digital currencies.</p>
+                        <p className="font-dmsans font-normal text-base md:text-xl my-2 md:my-4 text-slate-500">To provide customers with the most convenient and seamless wallet infrastructure service experience while using digital currencies.</p>
                     </div>
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
@@ -109,15 +110,7 @@ function About() {
                 </div>
             </section>
 
-            <section>
-                <div className="max-w-7xl mx-auto flex flex-col items-center justify-center text-center my-10 md:my-32 px-6">
-                    <h1 className="font-rubik font-bold text-gradient text-xl md:text-6xl mb-5 md:mb-14">Get Started WIth SwitchWallet</h1>
-                    <p className="max-w-lg font-dmsans font-normal text-base md:text-xl text-slate-500 mb-10">With Switch Wallet, you can provide your customers with the most convenient way to pay for their goods and services using digital currencies..</p>
-                    <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
-                        <button type='button' className='p-4 md:w-56 w-40 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
-                    </a>
-                </div>
-            </section>
+            <GetStarted />
 
         </Layout>
     )
