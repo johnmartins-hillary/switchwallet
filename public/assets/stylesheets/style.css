@@ -1564,6 +1564,11 @@ input:checked~.tab-content {
   line-height: 1rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1866,6 +1871,10 @@ input:checked~.tab-content {
     padding-right: 2rem;
   }
 
+  .sm\:text-center {
+    text-align: center;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1952,6 +1961,10 @@ input:checked~.tab-content {
 
   .md\:mt-32 {
     margin-top: 8rem;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .md\:block {
@@ -2089,6 +2102,16 @@ input:checked~.tab-content {
   .md\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .md\:text-left {
