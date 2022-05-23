@@ -41,16 +41,16 @@ function Pricing() {
                                     <tr>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Charges</th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gradient font-rubik text-lg font-semibold whitespace-no-wrap">$0/month</p>
+                                            <p className="text-gradient font-rubik text-lg font-semibold whitespace-no-wrap"><span className='text-2xl'>$</span>0/month</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-rubik text-lg font-semibold whitespace-no-wrap">$500/month</p>
+                                            <p className="text-gray-900 font-rubik text-lg font-semibold whitespace-no-wrap"><span className='text-2xl'>$</span>500/month</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-rubik text-lg font-semibold whitespace-no-wrap">$300/month</p>
+                                            <p className="text-gray-900 font-rubik text-lg font-semibold whitespace-no-wrap"><span className='text-2xl'>$</span>300/month</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-rubik text-lg font-semibold whitespace-no-wrap">$450/month</p>
+                                            <p className="text-gray-900 font-rubik text-lg font-semibold whitespace-no-wrap"><span className='text-2xl'>$</span>450/month</p>
                                         </th>
                                     </tr>
                                 </thead>

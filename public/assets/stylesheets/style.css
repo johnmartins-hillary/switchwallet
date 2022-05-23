@@ -750,11 +750,6 @@ input:checked~.tab-content {
   margin-bottom: 4rem;
 }
 
-.-mx-4 {
-  margin-left: -1rem;
-  margin-right: -1rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -1564,11 +1559,6 @@ input:checked~.tab-content {
   line-height: 1rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1844,11 +1834,6 @@ input:checked~.tab-content {
 }
 
 @media (min-width: 640px) {
-  .sm\:-mx-8 {
-    margin-left: -2rem;
-    margin-right: -2rem;
-  }
-
   .sm\:h-60 {
     height: 15rem;
   }
@@ -1864,15 +1849,6 @@ input:checked~.tab-content {
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  .sm\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .sm\:text-center {
-    text-align: center;
   }
 
   .sm\:text-4xl {
@@ -2102,16 +2078,6 @@ input:checked~.tab-content {
   .md\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  .md\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .md\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 
   .md\:text-left {
