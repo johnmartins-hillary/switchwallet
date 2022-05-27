@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import MindBlowing from '../components/MindBlowing';
+// import MindBlowing from '../components/MindBlowing';
 // import CustomersReview from '../components/CustomersReview';
 
 function GlobalBrands() {
@@ -11,21 +11,21 @@ function GlobalBrands() {
                 <div className="max-w-7xl flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row my-20">
                     <div className="md:w-2/3 flex flex-col">
                         <h1 className="font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mt-16 mb-10">API suite to build amazing wallet infrastructure service experiences</h1>
-                        <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">There's never been a faster, easier, more reliable payment gateway for your business. SwitchWallet provides excellent customer experiences when dealing with digital wallet infrastructure service.</p>
+                        <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">It's never been easier, faster, or more reliable for your business to use a wallet infrastructure. SwitchWallet offers a fantastic blockchain transaction experience to your crypto solution.</p>
                         <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
                             <button type='button' className='p-4 md:w-56 w-52 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
                         </a>
                     </div>
                     <div className="md:w-1/2 flex items-end justify-end">
-                        <img src="assets/images/global-wallet infrastructure service.svg" alt="Global wallet infrastructure service" />
+                        <img src="assets/images/globalbrands.svg" alt="Global" />
                     </div>
                 </div>
             </section>
 
-            <section className='max-w-7xl mx-auto text-center md:my-28 my-16 md:px-0 px-10'>
+            {/* <section className='max-w-7xl mx-auto text-center md:my-28 my-16 md:px-0 px-10'>
                 <h5 className='font-rubik font-normal text-xl mb-5'>Companies we have help grow with SwitchWallet</h5>
                 <img className='mx-auto' src="assets/images/brands.svg" alt="Brands" />
-            </section>
+            </section> */}
 
             <section className='my-20 md:my-60'>
                 <div className="container px-6 py-10 mx-auto">
@@ -44,8 +44,8 @@ function GlobalBrands() {
                                     <path d="M21.6172 28.5023V33.147H54.3829V28.5023H21.6172ZM24.2961 30.9731H23.2569V30.27H24.2961V30.9731ZM31.8194 30.9731H25.127V30.27H31.8194V30.9731Z" fill="#2042B8" />
                                 </svg>
                             </span>
-                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Modern Cards</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform.</p>
+                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Faster Processing Time</h1>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Transactions and orders done with SwitchWallet are processed promptly, so you can maximize your time  and money.</p>
                         </div>
                         <div className="p-8 border bg-white z-30">
                             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -56,8 +56,8 @@ function GlobalBrands() {
                                     <path d="M24.8795 37.8796H24.1999C23.9999 37.8796 23.8405 37.8 23.6795 37.639C23.5592 37.4796 23.4795 37.3187 23.5202 37.1187C23.5608 36.7593 23.8795 36.5187 24.2405 36.5187H24.9999C25.1999 36.5187 25.3592 36.639 25.3999 36.839C25.4405 36.9984 25.5592 37.1187 25.7592 37.1187H26.6389C26.7592 37.1187 26.8389 37.0781 26.9186 36.9984C26.9983 36.9187 26.9983 36.839 26.9983 36.7187C26.9186 35.7984 26.1983 35.0781 25.3186 34.9593V34.239C25.3186 34.039 25.1592 33.8796 24.9592 33.8796H24.0795C23.8795 33.8796 23.7202 34.039 23.7202 34.239V34.9999C22.5999 35.2406 21.7999 36.2796 21.9202 37.4406C22.0405 38.5999 23.0405 39.4812 24.2405 39.4812H24.7999C24.9999 39.4812 25.1592 39.5609 25.3202 39.7218C25.4405 39.8812 25.5202 40.0422 25.4795 40.2422C25.4389 40.6015 25.1202 40.8422 24.7592 40.8422H23.9999C23.7999 40.8422 23.6405 40.7218 23.5999 40.5218C23.5592 40.3625 23.4405 40.2422 23.2405 40.2422H22.3608C22.2405 40.2422 22.1608 40.2828 22.0811 40.3625C22.0014 40.4422 22.0014 40.5218 22.0014 40.6422C22.0811 41.5625 22.8014 42.2828 23.6811 42.4015V43.1218C23.6811 43.3218 23.8405 43.4812 24.0405 43.4812H24.9202C25.1202 43.4812 25.2795 43.3218 25.2795 43.1218V42.3625C26.2389 42.1219 26.9592 41.3625 27.0795 40.4031C27.1592 39.7625 26.9202 39.1234 26.5202 38.6438C26.1202 38.1594 25.5202 37.8797 24.8795 37.8797V37.8796Z" fill="#FF6600" />
                                 </svg>
                             </span>
-                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">No Extra Fee</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform.</p>
+                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">No Hidden Charges</h1>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">We charge the lowest amount possible for transactions, with the major cost being the gas fee.</p>
                         </div>
                         <div className="p-8 border bg-white z-30">
                             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -66,21 +66,21 @@ function GlobalBrands() {
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M38.3753 23.838L52.1748 30.7003C52.5123 30.8508 52.6628 31.1883 52.6628 31.5258C52.2873 37.6753 50.7123 42.6253 48.2373 46.6753C45.7623 50.7253 42.4251 53.8008 38.4497 56.1631C38.1501 56.3502 37.8126 56.3136 37.5497 56.1631C33.612 53.8006 30.2373 50.7253 27.762 46.6753C25.325 42.5875 23.7498 37.6375 23.3743 31.4876C23.3363 31.1122 23.5613 30.8126 23.8623 30.6622L37.624 23.8376C37.849 23.6872 38.1499 23.7251 38.3749 23.8376L38.3753 23.838ZM39.3878 44.5002H36.5753C36.4628 44.5002 36.3883 44.4622 36.2758 44.4622C35.8258 44.3118 35.6008 43.8252 35.7513 43.3752L36.6513 40.8257C36.2013 40.6007 35.7893 40.2252 35.5263 39.8132C35.2267 39.3632 35.0383 38.8007 35.0383 38.2382C35.0383 37.4127 35.3758 36.7012 35.9003 36.1752C36.4248 35.6507 37.1378 35.3132 37.9633 35.3132C38.7508 35.3132 39.5003 35.6507 40.0263 36.1752C40.5508 36.6997 40.8883 37.4127 40.8883 38.2382C40.8883 38.8007 40.7013 39.3632 40.4383 39.8132C40.1753 40.2252 39.7633 40.6007 39.3133 40.8257L40.1753 43.3387C40.2133 43.4512 40.2498 43.5637 40.2498 43.6762C40.2498 44.1248 39.8744 44.5002 39.3878 44.5002V44.5002Z" fill="#6C63FF" />
                                 </svg>
                             </span>
-                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Super Secure</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform.</p>
+                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">No Extra Fees</h1>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">We offer our customers hassle-free transactions at no additional charge .</p>
                         </div>
                     </div>
                 </div>
             </section>
 
             <section className="bg-white">
-                <div className="container mx-auto">
+                <div className="container mx-auto px-5">
                     <div className="lg:flex lg:items-center">
                         <div className="w-full space-y-16 lg:w-1/2">
                             <div>
                                 <h5 className='font-dmsans font-medium text-xl text-slate-700 text-gradient mb-5'>Why Choose us</h5>
-                                <h1 className="text-2xl font-rubik font-bold text-[#444444] md:text-5xl dark:text-white md:w-3/4">Specialist aiding client on financial challenges</h1>
-                                <p className='text-[#757575] font-dmsans font-medium text-lg mt-10 md:w-2/3'>Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+                                <h1 className="text-2xl font-rubik font-bold text-[#444444] md:text-5xl dark:text-white md:w-3/4">Designed to meet all your Business Needs</h1>
+                                <p className='text-[#757575] font-dmsans font-medium text-lg mt-10 md:w-2/3'>Start building your crypto project today with SwitchWallet  APIs and blockchain infrastructure.</p>
                             </div>
                             <div className="md:flex md:items-start md:-mx-4">
                                 <span className="inline-block p-2 md:mx-4">
@@ -96,8 +96,8 @@ function GlobalBrands() {
                                     </svg>
                                 </span>
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold dark:text-white">First Working Process</h1>
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform to help realize.</p>
+                                    <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold dark:text-white">Easy setup and onboarding</h1>
+                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">Our easy to use platform allows you to get familiarised with our key features within a short timeframe. Our efficient team is also readily available to help with any unprecedented challenges.</p>
                                 </div>
                             </div>
                             <div className="md:flex md:items-start md:-mx-4">
@@ -115,7 +115,7 @@ function GlobalBrands() {
                                 </span>
                                 <div className="mt-4 md:mx-4 md:mt-0">
                                     <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold dark:text-white">Dedicated Team</h1>
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform to help realize.</p>
+                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">When you're building a new product or software, the last thing you want to worry about is integrating your API. We automate the hassle for you with our dedicated team of experts who will work with you to integrate your API seamlessly.</p>
                                 </div>
                             </div>
                             <div className="md:flex md:items-start md:-mx-4">
@@ -134,7 +134,7 @@ function GlobalBrands() {
                                 </span>
                                 <div className="mt-4 md:mx-4 md:mt-0">
                                     <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold dark:text-white">24/7 Hours Support</h1>
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">End-to-end wallet infrastructure service and financial management in a single solution. Meet the right platform to help realize.</p>
+                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">We provide 24/7 live chat & email support, so that you never have to worry about any unprecedented challenges.</p>
                                 </div>
                             </div>
                         </div>
@@ -145,7 +145,46 @@ function GlobalBrands() {
                 </div>
             </section>
 
-            <MindBlowing />
+            <section className='my-20 md:my-32'>
+                <div className="container px-6 py-10 mx-auto">
+                    <h1 className="font-rubik font-bold text-black text-2xl md:text-5xl text-center">Our best features designed for your Product</h1>
+                    <p className="font-dmsans text-center mt-12 text-lg text-gray-500 max-w-xl mx-auto">We are the only wallet provider to offer you high-security, cold storage, offline data protection, and encryption of your crypto funds with full transparency and support.</p>
+                    <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-20 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+                        <div className="p-8 border bg-white z-40 rounded-2xl text-center">
+                            <span className="inline-block text-blue-500 dark:text-blue-400 mx-auto">
+                                <svg width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="15" width="50" height="30" fill="#FF6600" />
+                                    <rect width="39" height="10" fill="#2042B8" />
+                                </svg>
+                            </span>
+                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Solid Infrastructure</h1>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Besides having the best digital wallet infrastructure in Africa, we deepen innovation so that we can create a very reliable system for you</p>
+                        </div>
+                        <div className="p-8 border bg-white z-40 rounded-2xl text-center">
+                            <span className="inline-block text-blue-500 dark:text-blue-400 mx-auto">
+                                <svg width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="15" width="50" height="30" fill="#2042B8" />
+                                    <rect width="39" height="10" fill="#FF6600" />
+                                </svg>
+                            </span>
+                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Review transactions</h1>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Manage your solution transactions in our platform designed to meet all your needs.</p>
+                        </div>
+                        <div className="p-8 border bg-white z-40 rounded-2xl text-center">
+                            <span className="inline-block text-blue-500 dark:text-blue-400 mx-auto">
+                                <svg width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="15" width="50" height="30" fill="#2042B8" />
+                                    <rect width="39" height="10" fill="#FF6600" />
+                                </svg>
+                            </span>
+                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Get transaction insights</h1>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">View detailed analysis of your transactions and orders with insights on transaction flows, managing your keys, and transacting in different crypto currencies.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* <MindBlowing /> */}
 
             {/* <CustomersReview /> */}
 

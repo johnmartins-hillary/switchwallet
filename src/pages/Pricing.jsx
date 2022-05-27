@@ -11,8 +11,8 @@ function Pricing() {
                     <p className="mt-4 text-[#373737] xl:mt-6 max-w-md text-lg md:text-xl">Scale your  enterprise, start-up, ecommernce, or Metaverse NFTs Business. Get Started for free.</p>
                     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-20 md:grid-cols-2 xl:grid-cols-2">
                         <div className="p-10 space-y-10 border rounded-[25.3008px] bg-gradient text-white">
-                            <h3 className="text-xl md:text-2xl font-semibold">Local & Internationale</h3>
-                            <h1 className='font-rubik text-8xl font-bold'>$0.01</h1>
+                            <h3 className="text-xl md:text-2xl font-semibold">For startups and innovators</h3>
+                            <h1 className='font-rubik text-8xl font-bold'>$0</h1>
                             <p className='font-dmsans font-bold text-[18px]'>Transaction Charge</p>
                             <button type='text' className='p-3 w-60 md:w-64 cursor-pointer rounded-[35.5907px] font-dmsans font-bold md:text-lg text-center text-lg my-0 bg-white text-black'>Get Started - For free</button>
                             <div className='space-y-5'>
@@ -47,9 +47,9 @@ function Pricing() {
                             </div>
                         </div>
                         <div className="p-10 space-y-10 border rounded-[25.3008px]">
-                            <h3 className="text-xl md:text-2xl font-semibold text-[#292929]">Local & Internationale</h3>
+                            <h3 className="text-xl md:text-2xl font-semibold text-[#292929]">For enterprise and global brands</h3>
                             <h1 className='font-rubik text-6xl md:text-8xl font-bold text-gradient'>Custom</h1>
-                            <p className='font-dmsans font-bold text-sm md:text-[18px] text-[#292929]'>For Business Enterprise</p>
+                            {/* <p className='font-dmsans font-bold text-sm md:text-[18px] text-[#292929]'>For Business Enterprise</p> */}
                             <button type='text' className='p-3 w-60 md:w-64 cursor-pointer rounded-[35.5907px] font-dmsans font-bold md:text-lg text-center text-lg my-0 bg-[#2042B8] text-white'>Request a Consultation</button>
                             <div className='space-y-5'>
                                 <div className='flex gap-5'>
@@ -88,7 +88,7 @@ function Pricing() {
 
             <section>
                 <div className="max-w-7xl mx-auto px-5 md:px-0 text-gray-500 mt-10 md:mt-20">
-                    <h1 className='font-rubik font-bold text-3xl md:text-left md:text-4xl text-[#010101] mb-8 md:mb-10'>Why Choose us, Wanna Know more?</h1>
+                    <h1 className='font-rubik font-bold text-3xl md:text-left md:text-4xl text-[#010101] mb-8 md:mb-10'>Why Choose us?</h1>
                     <p className='text-[#373737 max-w-sm mb-10'>Compare us to other wallet service providers we offer the lowest charges posible to get your business up and runing.. </p>
                     <div className="overflow-x-auto">
                         <div className="inline-block min-w-full shadow rounded-lg overflow-hidden">
@@ -122,7 +122,7 @@ function Pricing() {
                                     <tr>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-dmsans font-semibold">Charges</th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-semibold text-gray-600">
-                                            <p className="text-gradient font-dmsans text-2xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>0.1/Month</p>
+                                            <p className="text-gradient font-dmsans text-2xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>0/Month</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
                                             <p className="text-gray-900 font-dmsans text-2xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>500/Month</p>
@@ -131,7 +131,7 @@ function Pricing() {
                                             <p className="text-gray-900 font-dmsans text-2xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>300/Month</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-dmsans text-2xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>$40/Month</p>
+                                            <p className="text-gray-900 font-dmsans text-2xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>40/Month</p>
                                         </th>
                                     </tr>
                                 </thead>
@@ -190,31 +190,31 @@ function Pricing() {
 
             <section className="container mx-auto bg-white my-10 md:my-28">
                 <div className='max-w-7xl mx-auto pl-8 md:pl-4'>
-                    <h1 className='font-rubik font-bold text-4xl'>FAQs</h1>
+                    <h1 className='font-rubik font-bold text-4xl'>More about us</h1>
                 </div>
                 <div tabIndex={0} aria-label="group of cards" className="focus:outline-none mt-5 flex flex-wrap justify-center gap-10 px-4">
                     <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 rounded-3xl p-5">
                         <div className="w-10/12">
-                            <h2 tabIndex={0} className="focus:outline-none text-xl text-gray-800 font-rubik font-medium">Are there any hidden chagres?</h2>
-                            <p tabIndex={0} className="focus:outline-none text-gray-500 font-dmsans text-lg font-medium pt-2">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+                            <h2 tabIndex={0} className="focus:outline-none text-xl text-gray-800 font-rubik font-medium">Secure Payment</h2>
+                            <p tabIndex={0} className="focus:outline-none text-gray-500 font-dmsans text-lg font-medium pt-2">End-to-end payments and financial management in a single solution. Meet the right platform for making secure transactions.</p>
                         </div>
                     </div>
                     <div tabIndex={0} aria-label="card 2" className="focus:outline-none flex sm:w-full md:w-5/12 rounded-3xl p-5">
                         <div className="w-10/12">
-                            <h2 tabIndex={0} className="focus:outline-none text-xl text-gray-800 font-rubik font-medium">Do need Ninja Skill to get started?</h2>
-                            <p tabIndex={0} className="focus:outline-none text-gray-500 font-dmsans text-lg font-medium pt-2">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+                            <h2 tabIndex={0} className="focus:outline-none text-xl text-gray-800 font-rubik font-medium">Faster Processing Time</h2>
+                            <p tabIndex={0} className="focus:outline-none text-gray-500 font-dmsans text-lg font-medium pt-2">Transactions and orders done with Switch Wallet are processed promptly, so you can maximize your time  and money.</p>
                         </div>
                     </div>
                     <div tabIndex={0} aria-label="card 3" className="focus:outline-none flex sm:w-full md:w-5/12 rounded-3xl p-5">
                         <div className="w-10/12">
-                            <h2 tabIndex={0} className="focus:outline-none text-xl text-gray-800 font-rubik font-medium">Lorem ipsum is dummy?</h2>
-                            <p tabIndex={0} className="focus:outline-none text-gray-500 font-dmsans text-lg font-medium pt-2">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+                            <h2 tabIndex={0} className="focus:outline-none text-xl text-gray-800 font-rubik font-medium">No Hidden Charges</h2>
+                            <p tabIndex={0} className="focus:outline-none text-gray-500 font-dmsans text-lg font-medium pt-2">We charge the lowest amount possible for transactions, with the major cost being the gas fee.</p>
                         </div>
                     </div>
                     <div tabIndex={0} aria-label="card 4" className="focus:outline-none flex sm:w-full md:w-5/12 rounded-3xl p-5">
                         <div className="w-10/12">
-                            <h2 tabIndex={0} className="focus:outline-none text-xl text-gray-800 font-rubik font-medium">Lorem ipsum is dummy?</h2>
-                            <p tabIndex={0} className="focus:outline-none text-gray-500 font-dmsans text-lg font-medium pt-2">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+                            <h2 tabIndex={0} className="focus:outline-none text-xl text-gray-800 font-rubik font-medium">No Extra Fees</h2>
+                            <p tabIndex={0} className="focus:outline-none text-gray-500 font-dmsans text-lg font-medium pt-2">We offer our customers hassle-free transactions at no additional charge.</p>
                         </div>
                     </div>
                 </div>

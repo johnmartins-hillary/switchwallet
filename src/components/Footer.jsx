@@ -36,7 +36,7 @@ function Footer() {
                         <div>
                             <p className="font-manrope font-bold text-xl text-[#25282B]">Support</p>
                             <nav className="flex flex-col mt-4 space-y-2 text-base font-dmsans text-[#A7A7A7]">
-                                <Link className="hover:opacity-75" to='/faq'>FAQ</Link>
+                                {/* <Link className="hover:opacity-75" to='/faq'>FAQ</Link> */}
                                 <Link className="hover:opacity-75" to='/contact'>Contact Us</Link>
                                 <Link className="hover:opacity-75" to='/privacy-terms'>Privacy & Terms</Link>
                             </nav>

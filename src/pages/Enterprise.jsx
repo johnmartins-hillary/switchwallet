@@ -10,8 +10,8 @@ function Enterprise() {
             <section className='bg-[#F8F9FF]'>
                 <div className="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row py-20">
                     <div className="md:w-2/3 flex flex-col">
-                        <h1 className="font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mt-16 mb-10 leading-loose">Managing payments has never been easier</h1>
-                        <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum.</p>
+                        <h1 className="font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mt-16 mb-10 leading-loose">Manage all your accounts in one place</h1>
+                        <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">Utilize our custom dashboard to manage all of your solution and blockchain transactions, taking care of everything at your fingertips.</p>
                         <div className="flex justify-center md:justify-start md:gap-5 gap-2">
                             <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
                                 <button type='button' className='p-4 md:w-56 w-40 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
@@ -29,8 +29,8 @@ function Enterprise() {
 
             <section className='my-20'>
                 <div className="container px-6 py-10 mx-auto">
-                    <h1 className="font-rubik font-bold text-black text-2xl md:text-5xl text-center">Automated Portfolio Tracking</h1>
-                    <p className="font-dmsans text-center mt-12 text-lg text-gray-500 max-w-xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum, accumsan tincidunt vehicula quam odio.</p>
+                    <h1 className="font-rubik font-bold text-black text-2xl md:text-5xl text-center">Our best features designed for your Product</h1>
+                    <p className="font-dmsans text-center mt-12 text-lg text-gray-500 max-w-xl mx-auto">We are the only wallet provider to offer you high-security, cold storage, offline data protection, and encryption of your crypto funds with full transparency and support.</p>
                     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-20 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
                         <div className="p-8 border bg-white z-40 rounded-2xl text-center">
                             <span className="inline-block text-blue-500 dark:text-blue-400 mx-auto">
@@ -39,8 +39,8 @@ function Enterprise() {
                                     <rect width="39" height="10" fill="#2042B8" />
                                 </svg>
                             </span>
-                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Connect wallets & companies</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Solid Infrastructure</h1>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Besides having the best digital wallet infrastructure in Africa, we deepen innovation so that we can create a very reliable system for you</p>
                         </div>
                         <div className="p-8 border bg-white z-40 rounded-2xl text-center">
                             <span className="inline-block text-blue-500 dark:text-blue-400 mx-auto">
@@ -50,7 +50,7 @@ function Enterprise() {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Review transactions</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Manage your solution transactions in our platform designed to meet all your needs.</p>
                         </div>
                         <div className="p-8 border bg-white z-40 rounded-2xl text-center">
                             <span className="inline-block text-blue-500 dark:text-blue-400 mx-auto">
@@ -59,8 +59,8 @@ function Enterprise() {
                                     <rect width="39" height="10" fill="#FF6600" />
                                 </svg>
                             </span>
-                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Get income insights</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+                            <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Get transaction insights</h1>
+                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">View detailed analysis of your transactions and orders with insights on transaction flows, managing your keys, and transacting in different crypto currencies.</p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ function Enterprise() {
                     <div className="flex flex-col w-full lg:w-2/5 p-8">
                         <h5 className='font-dmsans font-medium text-xl text-slate-700 text-gradient'>Why Choose us</h5>
                         <p className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">Track your payments on the go with the best way possible</p>
-                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum, accumsan tincidunt vehicula quam odio.</p>
+                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">No matter where you are, you can track the status of your API transaction through our on-the-go system. Keeping track of your crypto currency services has never been easier.</p>
                     </div>
                 </div>
             </section>
@@ -89,8 +89,8 @@ function Enterprise() {
                 <div className="container mx-auto flex flex-col md:flex-row">
                     <div className="flex flex-col w-full lg:w-2/5 p-8 md:order-1 order-2">
                         <h5 className='font-dmsans font-medium text-xl text-slate-700 text-gradient'>Why Choose us</h5>
-                        <h1 className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">Save money with proper transaction</h1>
-                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum, accumsan tincidunt vehicula quam odio.</p>
+                        <h1 className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">Save money while building your solution</h1>
+                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">You are finally able to save money while building that solution you've been wanting to build. No more estimating how much it will cost you for a wallet service.</p>
                     </div>
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
@@ -102,7 +102,7 @@ function Enterprise() {
                 </div>
             </section>
 
-            <section className='bg-[#F8F9FF]'>
+            {/* <section className='bg-[#F8F9FF]'>
                 <img className='absolute right-0 hidden md:block' src="assets/images/Developers6.svg" alt="Developers" />
                 <div className="container mx-auto px-6 py-20">
                     <h1 className="font-rubik font-bold text-2xl md:text-5xl md:text-left text-black">Mind blowing Features</h1>
@@ -138,7 +138,7 @@ function Enterprise() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* <CustomersReview /> */}
         </Layout>

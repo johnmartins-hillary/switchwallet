@@ -12,8 +12,7 @@ function Home() {
                         <h1 className="max-w-xl text-3xl md:text-5xl md:text-left text-gradient font-rubik font-bold md:mt-0 mt-10 mb-14 capitalize">
                             Fastest blockchain wallet infrastructure for business
                         </h1>
-                        <p className="max-w-md font-manrope font-medium text-base md:text-left mb-14 text-[#52575C]">
-                            Switch Wallet is an enterprise-grade wallet infrastructure for blockchain services. Leveraging our patented UP-TAP™ technology, you can securely process transactions in a fraction of the time of any other platform.</p>
+                        <p className="max-w-md font-manrope font-medium text-base md:text-left mb-14 text-[#52575C]">Switch Wallet is an enterprise-grade wallet infrastructure for blockchain services. Leveraging our technology, you can securely process transactions in a fraction of the time of any other platform.</p>
                         <div className="flex justify-center md:justify-start md:gap-5 gap-2">
                             <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
                                 <button type='button' className='p-4 w-40 md:w-56 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
@@ -52,7 +51,7 @@ function Home() {
                     </div>
                     <div className="flex flex-col w-full lg:w-2/4 p-8">
                         <p className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold text-[#444444]">Multichain Crypto Payment API</p>
-                        <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">Start accepting cryptocurrencies using Switch Wallet for on your business and eCommerce site</p>
+                        <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">Digital assets are the new world currency. Switch Wallet provides an API infrastructure service that allows you to invest, and transact digital assets, offering efficient multichain support and guarantee high-level security for your transactions.</p>
                     </div>
                 </div>
             </section>
@@ -61,7 +60,7 @@ function Home() {
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row mb-12 md:mb-20">
                     <div className="flex flex-col w-full lg:w-2/5 p-8 md:order-1 order-2">
                         <h1 className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold text-[#444444]">Fiat-to-Crypto Payment</h1>
-                        <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">Accept Fiat and Get Paid in Crypto and vice versa from multiple Crypto currencies.</p>
+                        <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">We provide a wallet API service that supports both fiat and crypto payments. It offers compatibility with most of the digital assets in the market and makes it easier to switch between different currencies and versa from multiple Crypto currencies.</p>
                     </div>
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
@@ -86,7 +85,7 @@ function Home() {
                     </div>
                     <div className="flex flex-col w-full lg:w-2/4 p-8">
                         <p className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold text-[#444444]">Supports multiple currencies</p>
-                        <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">Switch Wallet support transactions in multiple such as BUSD, BTC, ETH, SHIBA, and up to 100+ Crypto</p>
+                        <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">Switch Wallet supports transactions in multiple cryptocurrencies such as BUSD, BTC, ETH, SHIBA, and up to 100+ others.</p>
                     </div>
                 </div>
             </section>
@@ -108,7 +107,7 @@ function Home() {
                                     <img src='assets/images/rocket.svg' alt='Rocket' className="w-full h-full" />
                                 </div>
                                 <h2 className="text-2xl md:text-3xl mb-5 font-rubik font-bold text-[#444444]">Switch Wallet For Start-up</h2>
-                                <p className="text-[#52575C]">A new wave of payment solutions for Start-ups. Switch Wallet is a wallet funding platform that provides the seamless funding of multiple crypto currencies to businesses.</p>
+                                <p className="text-[#52575C]">A new wave of wallet infrastructure solutions for Start-ups. Switch Wallet is a wallet funding platform that provides the seamless funding of multiple crypto currencies to businesses.</p>
                                 <Link to="#">
                                     <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-2 border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
                                         Get Started
@@ -154,7 +153,7 @@ function Home() {
                                     <img src='assets/images/community.svg' alt='Community' className="w-full h-full" />
                                 </div>
                                 <h2 className="text-2xl md:text-3xl mb-5 font-rubik font-bold text-[#444444]">Switch Wallet For Global Brand</h2>
-                                <p className="text-[#52575C]">A new generation wallet payment service provider. We provide a cost-efficient and scalable solution for Start-ups that want to accept cryptocurrency as a payment method.</p>
+                                <p className="text-[#52575C]">A new generation wallet service provider. We provide a cost-efficient and scalable solution for Start-ups that want to accept cryptocurrency as a payment method in their service.</p>
                                 <Link to="#">
                                     <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-2 border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
                                         Get Started
@@ -189,8 +188,8 @@ function Home() {
                 <div className="rounded-3xl mt-10 md:mt-32 mb-20 flex flex-row bg-gradient-plus text-white">
                     <div className="lg:w-3/5 w-full p-12">
                         <div className="lg:w-2/3">
-                            <h3 className="font-rubik font-bold mb-10 text-2xl md:text-4xl">A set way to take your business to the next level</h3>
-                            <p className="font-dmsans font-bold mb-4 md:text-lg text-[#A7A7A7]">We accept multiple cryptocurrencies and convert them to fiat at the time of transaction.</p>
+                            <h3 className="font-rubik font-bold mb-10 text-2xl md:text-4xl">A set way to taking your business to the next level</h3>
+                            <p className="font-dmsans font-bold mb-4 md:text-lg text-[#A7A7A7]">We have the most affordable solution that allows businesses to perform transactions in multiple cryptocurrencies and digital assets. Our solution provides uber swift transactions, giving you the best support in the market.</p>
                         </div>
                     </div>
                     <div className="lg:w-2/5 w-full lg:flex lg:flex-row hidden items-center justify-center">
