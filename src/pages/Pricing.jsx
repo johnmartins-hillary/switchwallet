@@ -103,7 +103,7 @@ function Pricing() {
                                         </th>
                                         <th className="px-5 py-3 border-b-2 text-left text-xs font-semibold text-gray-600">
                                             <div className="h-10">
-                                                <img className="h-full" src="https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg" alt="" />
+                                                <img className="h-full w-32" src="https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg" alt="" />
                                             </div>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 text-left text-xs font-semibold text-gray-600">

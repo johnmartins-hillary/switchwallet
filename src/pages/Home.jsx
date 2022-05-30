@@ -9,8 +9,8 @@ function Home() {
             <section>
                 <div className="container flex flex-col-reverse items-center px-6 mx-auto md:mt-20 mt-10 space-y-0 md:space-y-0 md:flex-row">
                     <div className="flex flex-col md:w-1/2">
-                        <h1 className="max-w-xl text-3xl md:text-5xl md:text-left text-gradient font-rubik font-bold md:mt-0 mt-10 mb-14 capitalize">
-                            Fastest blockchain wallet infrastructure for business
+                        <h1 className="max-w-lg text-3xl md:text-5xl md:text-left text-gradient font-rubik font-bold md:mt-0 mt-10 mb-14 capitalize">
+                            Fastest Blockchain Payment Gateway your business deserve
                         </h1>
                         <p className="max-w-md font-manrope font-medium text-base md:text-left mb-14 text-[#52575C]">Switch Wallet is an enterprise-grade wallet infrastructure for blockchain services. Leveraging our technology, you can securely process transactions in a fraction of the time of any other platform.</p>
                         <div className="flex justify-center md:justify-start md:gap-5 gap-2">
