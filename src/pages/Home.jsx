@@ -10,9 +10,9 @@ function Home() {
                 <div className="container flex flex-col-reverse items-center px-6 mx-auto md:mt-20 mt-10 space-y-0 md:space-y-0 md:flex-row">
                     <div className="flex flex-col md:w-1/2">
                         <h1 className="max-w-lg text-3xl md:text-5xl md:text-left text-gradient font-rubik font-bold md:mt-0 mt-10 mb-14 capitalize">
-                            Fastest Blockchain Payment Gateway your business deserve
+                            Fastest Blockchain Payment Gateway your business deserves
                         </h1>
-                        <p className="max-w-md font-manrope font-medium text-base md:text-left mb-14 text-[#52575C]">Switch Wallet is an enterprise-grade wallet infrastructure for blockchain services. Leveraging our technology, you can securely process transactions in a fraction of the time of any other platform.</p>
+                        <p className="max-w-md font-manrope font-medium text-base md:text-left mb-14 text-[#52575C]">Switch Wallet is an enterprise-grade wallet infrastructure for blockchain services. Leveraging our technology, you can securely process transactions in a fraction of the time on any other platform.</p>
                         <div className="flex justify-center md:justify-start md:gap-5 gap-2">
                             <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
                                 <button type='button' className='p-4 w-40 md:w-56 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
@@ -37,7 +37,7 @@ function Home() {
             <section className="py-4 my-12 md:my-0">
                 <div className='text-center md:my-32'>
                     <h1 className='text-4xl md:text-5xl my-4 font-rubik font-bold text-[#444444]'>Fast n’ Simple payment for you </h1>
-                    <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">Built for your Business to connect more customer</p>
+                    <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">Built for your business to connect more customers</p>
                 </div>
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row mt-12 md:mt-0">
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12">
@@ -51,7 +51,7 @@ function Home() {
                     </div>
                     <div className="flex flex-col w-full lg:w-2/4 p-8">
                         <p className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold text-[#444444]">Multichain Crypto Payment API</p>
-                        <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">Digital assets are the new world currency. Switch Wallet provides an API infrastructure service that allows you to invest, and transact digital assets, offering efficient multichain support and guarantee high-level security for your transactions.</p>
+                        <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">Digital asset is the new world currency. Switch Wallet provides an API infrastructure service that allows you to invest and transact digital assets; it offers efficient multi-chain support, and guarantees high-level security for your transactions.</p>
                     </div>
                 </div>
             </section>
@@ -95,8 +95,8 @@ function Home() {
                     <div className="flex flex-wrap">
                         <div className="w-full px-4">
                             <div className="text-center mx-auto mb-12 lg:mb-14 max-w-[510px]">
-                                <h2 className="font-bold text-2xl sm:text-4xl md:text-[40px] text-dark mb-5 font-rubik text-[#444444]">Getting Started is  easy</h2>
-                                <p className="font-dmsans text-base md:text-lg font-normal text-[#A7A7A7]">Built for your Business to connect more customer</p>
+                                <h2 className="font-bold text-2xl sm:text-4xl md:text-[40px] text-dark mb-5 font-rubik text-[#444444]">Getting started is easy</h2>
+                                <p className="font-dmsans text-base md:text-lg font-normal text-[#A7A7A7]">Built for your business to connect with more customer</p>
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ function Home() {
                                 <div className="w-[70px] h-[70px] flex items-center justify-center bg-primary rounded-2xl mb-8 ">
                                     <img src='assets/images/rocket.svg' alt='Rocket' className="w-full h-full" />
                                 </div>
-                                <h2 className="text-2xl md:text-3xl mb-5 font-rubik font-bold text-[#444444]">Switch Wallet For Start-up</h2>
+                                <h2 className="text-2xl md:text-3xl mb-5 font-rubik font-bold text-[#444444]">Switch Wallet For Start-ups</h2>
                                 <p className="text-[#52575C]">A new wave of wallet infrastructure solutions for Start-ups. Switch Wallet is a wallet funding platform that provides the seamless funding of multiple crypto currencies to businesses.</p>
                                 <Link to="#">
                                     <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold md:text-lg text-center text-gradient bg-transparent border-2 border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
