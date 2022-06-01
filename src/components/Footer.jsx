@@ -8,8 +8,7 @@ function Footer() {
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
                         <img src="assets/images/logo.svg" className="mr-5" alt="logo" />
-                        <p className="max-w-sm mt-4 text-lg font-dmsans text-[#A7A7A7]">A fastest global Blockchain powered Payment gateway for Start-ups and Enterprises. Built and Secured by Xend Finance.</p>
-                        <p className="max-w-sm mt-10 text-base font-dmsans font-bold text-[#625F5F]">© Switch Wallet 2022</p>
+                        <p className="max-w-sm mt-4 text-lg font-dmsans text-[#A7A7A7]">The fastest global Blockchain-powered payment gateway for startups and enterprises. Built and secured by XendFinance.</p>
                     </div>
                     <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
                         <div>
@@ -36,12 +35,12 @@ function Footer() {
                         <div>
                             <p className="font-manrope font-bold text-xl text-[#25282B]">Support</p>
                             <nav className="flex flex-col mt-4 space-y-2 text-base font-dmsans text-[#A7A7A7]">
-                                {/* <Link className="hover:opacity-75" to='/faq'>FAQ</Link> */}
                                 <Link className="hover:opacity-75" to='/contact'>Contact Us</Link>
                                 <Link className="hover:opacity-75" to='/privacy-terms'>Privacy & Terms</Link>
                             </nav>
                         </div>
                     </div>
+                    <p className="max-w-sm mt-10 text-base font-dmsans font-medium text-[#625F5F]">© Switch Wallet 2022</p>
                 </div>
             </div>
         </footer>
