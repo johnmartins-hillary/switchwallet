@@ -24,7 +24,7 @@
         font-family: 'Rubik', 'DM Sans', sans-serif;
     }
 
-    @font-face {
+    /* @font-face {
         font-family: 'Rubik Regular';
         src: url('../fonts/Rubik/Rubik-Regular.ttf');
         src: url('../fonts/Rubik/Rubik-Regular.ttf') format('truetype');
@@ -82,7 +82,7 @@
         font-family: 'DMSans Bold';
         src: url('../fonts/DMSans/DMSans-Bold.ttf');
         src: url('../fonts/DMSans/DMSans-Bold.ttf') format('truetype');
-    }
+    } */
 
     .text-gradient {
         background-color: #fff;
