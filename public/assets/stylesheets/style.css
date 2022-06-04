@@ -77,7 +77,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /*
@@ -344,16 +344,14 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
   /* 2 */
 }
 
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -444,85 +442,65 @@ code {
   font-family: 'Rubik', 'DM Sans', sans-serif;
 }
 
-@font-face {
-  font-family: 'Rubik Regular';
+/* @font-face {
+        font-family: 'Rubik Regular';
+        src: url('../fonts/Rubik/Rubik-Regular.ttf');
+        src: url('../fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+    }
 
-  src: url('../fonts/Rubik/Rubik-Regular.ttf');
+    @font-face {
+        font-family: 'Rubik Medium';
+        src: url('../fonts/Rubik/Rubik-Medium.ttf');
+        src: url('../fonts/Rubik/Rubik-Medium.ttf') format('truetype');
+    }
 
-  src: url('../fonts/Rubik/Rubik-Regular.ttf') format('truetype');
-}
+    @font-face {
+        font-family: 'Rubik Light';
+        src: url('../fonts/Rubik/Rubik-Light.ttf');
+        src: url('../fonts/Rubik/Rubik-Light.ttf') format('truetype');
+    }
 
-@font-face {
-  font-family: 'Rubik Medium';
+    @font-face {
+        font-family: 'Rubik SemiBold';
+        src: url('../fonts/Rubik/Rubik-SemiBold.ttf');
+        src: url('../fonts/Rubik/Rubik-SemiBold.ttf') format('truetype');
+    }
 
-  src: url('../fonts/Rubik/Rubik-Medium.ttf');
+    @font-face {
+        font-family: 'Rubik Bold';
+        src: url('../fonts/Rubik/Rubik-Bold.ttf');
+        src: url('../fonts/Rubik/Rubik-Bold.ttf') format('truetype');
+    }
 
-  src: url('../fonts/Rubik/Rubik-Medium.ttf') format('truetype');
-}
+    @font-face {
+        font-family: 'Rubik ExtraBold';
+        src: url('../fonts/Rubik/Rubik-ExtraBold.ttf');
+        src: url('../fonts/Rubik/Rubik-ExtraBold.ttf') format('truetype');
+    }
 
-@font-face {
-  font-family: 'Rubik Light';
+    @font-face {
+        font-family: 'Rubik Black';
+        src: url('../fonts/Rubik/Rubik-Black.ttf');
+        src: url('../fonts/Rubik/Rubik-Black.ttf') format('truetype');
+    }
 
-  src: url('../fonts/Rubik/Rubik-Light.ttf');
+    @font-face {
+        font-family: 'DMSans Regular';
+        src: url('../fonts/DMSans/DMSans-Regular.ttf');
+        src: url('../fonts/DMSans/DMSans-Regular.ttf') format('truetype');
+    }
 
-  src: url('../fonts/Rubik/Rubik-Light.ttf') format('truetype');
-}
+    @font-face {
+        font-family: 'DMSans Medium';
+        src: url('../fonts/DMSans/DMSans-Medium.ttf');
+        src: url('../fonts/DMSans/DMSans-Medium.ttf') format('truetype');
+    }
 
-@font-face {
-  font-family: 'Rubik SemiBold';
-
-  src: url('../fonts/Rubik/Rubik-SemiBold.ttf');
-
-  src: url('../fonts/Rubik/Rubik-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Rubik Bold';
-
-  src: url('../fonts/Rubik/Rubik-Bold.ttf');
-
-  src: url('../fonts/Rubik/Rubik-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Rubik ExtraBold';
-
-  src: url('../fonts/Rubik/Rubik-ExtraBold.ttf');
-
-  src: url('../fonts/Rubik/Rubik-ExtraBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Rubik Black';
-
-  src: url('../fonts/Rubik/Rubik-Black.ttf');
-
-  src: url('../fonts/Rubik/Rubik-Black.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'DMSans Regular';
-
-  src: url('../fonts/DMSans/DMSans-Regular.ttf');
-
-  src: url('../fonts/DMSans/DMSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'DMSans Medium';
-
-  src: url('../fonts/DMSans/DMSans-Medium.ttf');
-
-  src: url('../fonts/DMSans/DMSans-Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'DMSans Bold';
-
-  src: url('../fonts/DMSans/DMSans-Bold.ttf');
-
-  src: url('../fonts/DMSans/DMSans-Bold.ttf') format('truetype');
-}
+    @font-face {
+        font-family: 'DMSans Bold';
+        src: url('../fonts/DMSans/DMSans-Bold.ttf');
+        src: url('../fonts/DMSans/DMSans-Bold.ttf') format('truetype');
+    } */
 
 .text-gradient {
   background-color: #fff;
@@ -556,21 +534,19 @@ code {
 
 input:checked+.tab-label .test svg {
   -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 input:checked+.tab-label::after {
   -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 input:checked~.tab-content {
   max-height: 100vh;
 }
 
-*,
-::before,
-::after {
+*, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -578,16 +554,16 @@ input:checked~.tab-content {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x: ;
-  --tw-pan-y: ;
-  --tw-pinch-zoom: ;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal: ;
-  --tw-slashed-zero: ;
-  --tw-numeric-figure: ;
-  --tw-numeric-spacing: ;
-  --tw-numeric-fraction: ;
-  --tw-ring-inset: ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -595,24 +571,24 @@ input:checked~.tab-content {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur: ;
-  --tw-brightness: ;
-  --tw-contrast: ;
-  --tw-grayscale: ;
-  --tw-hue-rotate: ;
-  --tw-invert: ;
-  --tw-saturate: ;
-  --tw-sepia: ;
-  --tw-drop-shadow: ;
-  --tw-backdrop-blur: ;
-  --tw-backdrop-brightness: ;
-  --tw-backdrop-contrast: ;
-  --tw-backdrop-grayscale: ;
-  --tw-backdrop-hue-rotate: ;
-  --tw-backdrop-invert: ;
-  --tw-backdrop-opacity: ;
-  --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia: ;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
 }
 
 .container {
@@ -879,10 +855,6 @@ input:checked~.tab-content {
   margin-top: 0.75rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -891,8 +863,8 @@ input:checked~.tab-content {
   margin-bottom: 0.75rem;
 }
 
-.mt-40 {
-  margin-top: 10rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -965,6 +937,22 @@ input:checked~.tab-content {
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .min-h-screen {
@@ -1065,10 +1053,6 @@ input:checked~.tab-content {
   max-width: 48rem;
 }
 
-.max-w-6xl {
-  max-width: 72rem;
-}
-
 .max-w-\[510px\] {
   max-width: 510px;
 }
@@ -1091,7 +1075,7 @@ input:checked~.tab-content {
 
 .transform {
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer {
@@ -1100,8 +1084,8 @@ input:checked~.tab-content {
 
 .select-none {
   -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .grid-cols-1 {
@@ -1174,62 +1158,62 @@ input:checked~.tab-content {
 
 .gap-x-6 {
   -webkit-column-gap: 1.5rem;
-  column-gap: 1.5rem;
+          column-gap: 1.5rem;
 }
 
 .gap-y-8 {
   row-gap: 2rem;
 }
 
-.space-y-2> :not([hidden])~ :not([hidden]) {
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
-.space-x-4> :not([hidden])~ :not([hidden]) {
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-1> :not([hidden])~ :not([hidden]) {
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-0> :not([hidden])~ :not([hidden]) {
+.space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0px * var(--tw-space-y-reverse));
 }
 
-.space-y-8> :not([hidden])~ :not([hidden]) {
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.space-y-16> :not([hidden])~ :not([hidden]) {
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
-.space-y-10> :not([hidden])~ :not([hidden]) {
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
-.space-y-5> :not([hidden])~ :not([hidden]) {
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.space-y-6> :not([hidden])~ :not([hidden]) {
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
@@ -1531,10 +1515,6 @@ input:checked~.tab-content {
   padding-bottom: 0.5rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -1600,10 +1580,6 @@ input:checked~.tab-content {
   line-height: 1;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -1636,6 +1612,10 @@ input:checked~.tab-content {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .capitalize {
@@ -1948,24 +1928,24 @@ input:checked~.tab-content {
     margin-bottom: 0px;
   }
 
-  .md\:my-60 {
-    margin-top: 15rem;
-    margin-bottom: 15rem;
-  }
-
   .md\:my-4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
-  .md\:my-44 {
-    margin-top: 11rem;
-    margin-bottom: 11rem;
+  .md\:my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .md\:my-28 {
     margin-top: 7rem;
     margin-bottom: 7rem;
+  }
+
+  .md\:my-60 {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
   }
 
   .md\:-mx-4 {
@@ -1976,6 +1956,11 @@ input:checked~.tab-content {
   .md\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .md\:my-20 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   .md\:mb-20 {
@@ -2004,6 +1989,10 @@ input:checked~.tab-content {
 
   .md\:mt-32 {
     margin-top: 8rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .md\:mb-10 {
@@ -2090,7 +2079,7 @@ input:checked~.tab-content {
     gap: 5rem;
   }
 
-  .md\:space-y-0> :not([hidden])~ :not([hidden]) {
+  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
@@ -2114,6 +2103,10 @@ input:checked~.tab-content {
 
   .md\:p-4 {
     padding: 1rem;
+  }
+
+  .md\:p-20 {
+    padding: 5rem;
   }
 
   .md\:py-32 {
@@ -2153,6 +2146,10 @@ input:checked~.tab-content {
 
   .md\:pl-4 {
     padding-left: 1rem;
+  }
+
+  .md\:pb-20 {
+    padding-bottom: 5rem;
   }
 
   .md\:text-left {
@@ -2198,18 +2195,28 @@ input:checked~.tab-content {
     line-height: 2.25rem;
   }
 
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
 
-  .md\:text-\[18px\] {
-    font-size: 18px;
-  }
-
   .md\:text-8xl {
     font-size: 6rem;
     line-height: 1;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .md\:leading-snug {
@@ -2272,10 +2279,6 @@ input:checked~.tab-content {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-2 {

@@ -8,16 +8,9 @@ function Footer() {
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
                         <img src="assets/images/logo.svg" className="mr-5" alt="logo" />
-                        <p className="max-w-sm mt-4 text-lg font-dmsans text-[#A7A7A7]">The fastest global Blockchain-powered payment gateway for startups and enterprises. Built and secured by XendFinance.</p>
+                        <p className="max-w-md mt-4 text-lg font-dmsans text-[#A7A7A7]">The cheapest wallet infrastructure for startups and businesses. Built and secured by XendFinance.</p>
                     </div>
-                    <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
-                        <div>
-                            <p className="font-manrope font-bold text-xl text-[#25282B]">Company</p>
-                            <nav className="flex flex-col mt-4 space-y-2 text-base font-dmsans text-[#A7A7A7]">
-                                <Link className="hover:opacity-75" to='/about'>About</Link>
-                                <Link className="hover:opacity-75" to='/pricing'>Pricing</Link>
-                            </nav>
-                        </div>
+                    <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3">
                         <div>
                             <p className="font-manrope font-bold text-xl text-[#25282B]">Technology</p>
                             <nav className="flex flex-col mt-4 space-y-2 text-base font-dmsans text-[#A7A7A7]">
@@ -29,6 +22,7 @@ function Footer() {
                         <div>
                             <p className="font-manrope font-bold text-xl text-[#25282B]">Developers</p>
                             <nav className="flex flex-col mt-4 space-y-2 text-base font-dmsans text-[#A7A7A7]">
+                                <Link className="hover:opacity-75" to='/pricing'>Pricing</Link>
                                 <a href="https://documenter.getpostman.com/view/20639835/UyxeqUHN" target="_blank" rel="noopener noreferrer" className="hover:opacity-75">Documentation</a>
                             </nav>
                         </div>

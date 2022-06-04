@@ -21,17 +21,12 @@ function Startups() {
                 </div>
             </section>
 
-            {/* <section className='container mx-auto text-center md:my-28 my-16 md:px-0 px-10'>
-                <h5 className='font-rubik font-normal text-xl mb-5'>Over 12k+ business growing with Switchwallet</h5>
-                <img className='mx-auto' src="assets/images/brands.svg" alt="Brands" />
-            </section> */}
-
             <section>
-                <div className="container mx-auto flex flex-col md:flex-row my-10 md:my-40">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row my-10 md:my-40">
                     <div className="flex flex-col w-full lg:w-2/4 p-8 md:order-1 order-2">
                         <h5 className='font-dmsans font-medium text-xl text-slate-700 text-gradient'>Our Features</h5>
-                        <h1 className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">Manage all your accounts in one place</h1>
-                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Organise your business transactions with our bespoke dashboard, designed to meet all your needs in one place.</p>
+                        <h1 className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">Manage all your accounts in one place</h1>
+                        <p className="text-lg md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Organise your business transactions with our bespoke dashboard, designed to meet all your needs in one place.</p>
                     </div>
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
@@ -44,44 +39,25 @@ function Startups() {
             </section>
 
             <section>
-                <div className="container mx-auto flex flex-col md:flex-row md:my-40">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row">
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12">
-                        <div className="container">
-                            <div className="relative flex flex-col min-w-0 break-words w-full">
-                                <div className="flex-auto p-5 lg:p-10">
-                                    <img src="assets/images/startup3.svg" alt="Startups" className='w-full md:w-4/6' />
-                                </div>
+                        <div className="relative flex flex-col min-w-0 break-words w-full">
+                            <div className="flex-auto p-5 lg:p-10">
+                                <img src="assets/images/startup3.svg" alt="Startups" className='w-full md:w-4/6' />
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-col w-full lg:w-2/4 p-8">
                         <h5 className='font-dmsans font-medium text-xl text-slate-700 text-gradient'>Our Features</h5>
                         <p className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">Easy setup and onboarding</p>
-                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">We have a user-friendly platform that enables you to become familiar with our key features quickly. We also have a dedicated team available to assist with any unexpected challenges you may encounter.</p>
+                        <p className="text-lg md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">We have a user-friendly platform that enables you to become familiar with our key features quickly. We also have a dedicated team available to assist with any unexpected challenges you may encounter.</p>
                     </div>
                 </div>
             </section>
 
-            {/* <section>
-                <div className="container mx-auto flex flex-col md:flex-row mt-40">
-                    <div className="flex flex-col w-full lg:w-2/4 p-8 md:order-1 order-2">
-                        <h5 className='font-dmsans font-medium text-xl text-slate-700 text-gradient'>Our Features</h5>
-                        <h1 className="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold">All payments are linked to your financy account</h1>
-                        <p className="text-sm md:text-lg my-2 md:my-4 font-dmsans font-normal text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. </p>
-                    </div>
-                    <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
-                        <div className="relative flex flex-col min-w-0 break-words w-full">
-                            <div className="flex-auto p-5 lg:p-10 flex justify-end">
-                                <img src="assets/images/Enterpise2.svg" alt="Enterpise" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
-
             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 my-20 md:my-40">
                 <img className='absolute right-0 hidden md:block' src="assets/images/big_side_logo.svg" alt="Big" />
-                <div className="text-center pb-20">
+                <div className="text-center md:pb-20">
                     <p className='font-dmsans font-normal text-lg text-gradient mb-5'>Why SwitchWallet</p>
                     <h1 className="text-3xl md:text2-4xl lg:text-5xl font-rubik font-bold text-gray-900">Why Choose Us</h1>
                 </div>
@@ -125,8 +101,8 @@ function Startups() {
                             </svg>
                         </div>
                         <div className="text-left p-6 md:p-4 space-y-2">
-                            <p className="text-2xl text-gray-700 font-manrope font-extrabold">Secure Payment</p>
-                            <p className="text-lg leading-relaxed text-gray-500 font-manrope">End-to-end payments and financial management in a single solution. Meet the right platform for making secure transactions.</p>
+                            <p className="text-2xl text-gray-700 font-manrope font-extrabold">Secure Transactions</p>
+                            <p className="text-lg leading-relaxed text-gray-500 font-manrope">End-to-end transaction management in a single solution. Meet the right platform for making secure transactions.</p>
                         </div>
                     </div>
                     <div className="w-full bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row z-30 p-8 md:p-10">
@@ -211,8 +187,8 @@ function Startups() {
                             </svg>
                         </div>
                         <div className="text-left p-6 md:p-4 space-y-2">
-                            <p className="text-2xl text-gray-700 font-manrope font-extrabold">No Hidden Charges</p>
-                            <p className="text-lg leading-relaxed text-gray-500 font-manrope">We charge the lowest amount possible for transactions, with the major cost being the gas fee.</p>
+                            <p className="text-2xl text-gray-700 font-manrope font-extrabold">Zero Service Charges</p>
+                            <p className="text-lg leading-relaxed text-gray-500 font-manrope">We charge 0% cost for our infrastructure service, with the major cost being the gas fee.</p>
                         </div>
                     </div>
                     <div className="w-full bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row z-30 p-8 md:p-10">
@@ -254,14 +230,12 @@ function Startups() {
                             </svg>
                         </div>
                         <div className="text-left p-6 md:p-4 space-y-2">
-                            <p className="text-2xl text-gray-700 font-manrope font-extrabold">No Extra Fees</p>
+                            <p className="text-2xl text-gray-700 font-manrope font-extrabold">No Hassle with Transactions</p>
                             <p className="text-lg leading-relaxed text-gray-500 font-manrope">We offer our customers hassle-free transactions at no additional charge.</p>
                         </div>
                     </div>
                 </div>
             </section>
-
-            {/* <CustomersReview /> */}
 
         </Layout>
     )

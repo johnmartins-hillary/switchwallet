@@ -2,9 +2,9 @@ import React from 'react';
 
 function MindBlowing() {
     return (
-        <section className='my-20 md:my-60'>
+        <section className='my-20 md:my-32'>
             <img className='absolute right-0 hidden md:block' src="assets/images/Developers6.svg" alt="Developers" />
-            <div className="container px-6 py-10 mx-auto">
+            <div className="max-w-7xl px-6 py-10 mx-auto">
                 <h1 className="font-rubik font-bold text-slate-700 text-2xl md:text-5xl md:text-left dark:text-white">Mind blowing Features</h1>
                 <p className="md:w-1/2 md:text-left mt-4 xl:mt-6 dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus velit posuere vestibulum, accumsan tincidunt vehicula quam odio.</p>
                 <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">

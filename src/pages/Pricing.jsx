@@ -8,9 +8,9 @@ function Pricing() {
             <section className="bg-white dark:bg-gray-900">
                 <div className="max-w-7xl px-5 md:px-0 py-10 md:py-20 mx-auto">
                     <h1 className="font-rubik font-bold text-2xl md:text-5xl text-gradient max-w-2xl">Pricing that suits your business. Start Building today</h1>
-                    <p className="mt-4 text-[#373737] xl:mt-6 max-w-md text-lg md:text-xl">Scale your  enterprise, start-up, ecommernce, or Metaverse NFTs Business. Get Started for free.</p>
+                    <p className="mt-4 text-[#373737] xl:mt-6 max-w-md text-base md:text-lg">Scale your  enterprise, start-up, ecommernce, or Metaverse NFTs Business. Get Started for free.</p>
                     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-20 md:grid-cols-2 xl:grid-cols-2">
-                        <div className="p-10 space-y-10 border rounded-[25.3008px] bg-gradient text-white">
+                        <div className="p-10 md:p-20 space-y-10 border rounded-[25.3008px] bg-gradient text-white">
                             <h3 className="text-xl md:text-2xl font-semibold">For startups and innovators</h3>
                             <h1 className='font-rubik text-8xl font-bold'>$0</h1>
                             <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer" className=''>
@@ -49,7 +49,7 @@ function Pricing() {
                                 </div>
                             </div>
                         </div>
-                        <div className="p-10 space-y-10 border rounded-[25.3008px]">
+                        <div className="p-10 md:p-20 space-y-10 border rounded-[25.3008px]">
                             <h3 className="text-xl md:text-2xl font-semibold text-[#292929]">For enterprise and global brands</h3>
                             <h1 className='font-rubik text-6xl md:text-8xl font-bold text-gradient'>Custom</h1>
                             <button type='text' className='p-4 w-60 md:w-64 cursor-pointer rounded-[35.5907px] font-dmsans font-bold md:text-lg text-center text-lg my-0 bg-[#2042B8] text-white'>Request a Consultation</button>
@@ -99,23 +99,27 @@ function Pricing() {
                                     <tr>
                                         <th className="px-5 py-3 border-b-2 text-left font-semibold">Brands</th>
                                         <th className="px-5 py-3 border-b-2 text-left font-semibold text-gray-600">
-                                            <div className="h-10">
-                                                <img className="h-full" src="assets/images/logo.svg" alt="" />
+                                            <div className="">
+                                                <img className="h-12 mb-2 rounded-full" src="assets/images/switchwallet.png" alt="" />
+                                                <p className='text-xs md:text-sm uppercase'>SwitchWallet</p>
                                             </div>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 text-left text-xs font-semibold text-gray-600">
-                                            <div className="h-10">
-                                                <img className="h-full w-32" src="https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg" alt="" />
+                                            <div className="">
+                                                <img className="h-12 mb-2 rounded-full" src="assets/images/coinbase.png" alt="" />
+                                                <p className='text-xs md:text-sm uppercase'>Coinbase</p>
                                             </div>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 text-left text-xs font-semibold text-gray-600">
-                                            <div className="h-10">
-                                                <img className="h-full" src="https://1inch.io/img/logo.svg" alt="" />
+                                            <div className="">
+                                                <img className="h-12 mb-2" src="assets/images/bitgo.svg" alt="" />
+                                                <p className='text-xs md:text-sm uppercase'>Bitgo</p>
                                             </div>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 text-left text-xs font-semibold text-gray-600">
-                                            <div className="h-10">
-                                                <img className="h-full" src="https://coingate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8c4491d2.png&w=256&q=75" alt="" />
+                                            <div className="">
+                                                <img className="h-12 mb-2 rounded-full" src="assets/images/gemini.png" alt="" />
+                                                <p className='text-xs md:text-sm uppercase'>Gemini</p>
                                             </div>
                                         </th>
                                     </tr>
@@ -124,22 +128,22 @@ function Pricing() {
                                     <tr>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-dmsans font-semibold">Charges</th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-semibold text-gray-600">
-                                            <p className="text-gradient font-dmsans text-2xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>0/Month</p>
+                                            <p className="text-gradient font-manrope text-xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>0/Month</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-dmsans text-2xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>500/Month</p>
+                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>500/Month</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-dmsans text-2xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>300/Month</p>
+                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>300/Month</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-dmsans text-2xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>40/Month</p>
+                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>40/Month</p>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td className="px-5 py-3 border-b-2 border-gray-200 text-left font-dmsans font-semibold">Daily Credits</td>
+                                        <td className="px-5 py-3 border-b-2 border-gray-200 text-left font-dmsans font-semibold">Credits</td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                             <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
@@ -154,7 +158,7 @@ function Pricing() {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] font-dmsans font-semibold">Requests Per Second</td>
+                                        <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] font-dmsans font-semibold">Requests</td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
                                             <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
