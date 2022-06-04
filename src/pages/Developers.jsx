@@ -1,14 +1,13 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import MindBlowing from '../components/MindBlowing';
-// import CustomersReview from '../components/CustomersReview';
 
 function Developers() {
     return (
         <Layout>
 
             <section>
-                <div className="max-w-7xl flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row">
+                <div className="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row">
                     <div className="md:w-2/3 flex flex-col">
                         <h1 className="font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mb-10">API suite to build amazing payments experiences</h1>
                         <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">There's never been a faster, easier, more reliable wallet infrastructure service for your business. SwitchWallet provides excellent customer experiences when dealing with digital payments.</p>
@@ -23,7 +22,7 @@ function Developers() {
             </section>
 
             <section>
-                <div className="container px-5 py-24 mx-auto max-w-7x1">
+                <div className="max-w-7xl px-5 py-24 mx-auto max-w-7x1">
                     <div className="flex flex-wrap -m-4">
                         <div className="xl:w-1/3 md:w-1/2 p-4">
                             <div className="bg-white p-0 md:p-6 rounded-lg">
@@ -51,11 +50,11 @@ function Developers() {
             </section>
 
             <section>
-                <div className="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row md:my-44">
+                <div className="max-w-7xl flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row md:mt-10">
                     <div className="md:w-2/3 flex flex-col">
                         <h5 className='font-dmsans font-medium text-xl mb-5 text-slate-700 my-10'>Our Features</h5>
                         <h1 className="font-rubik font-bold text-slate-700 text-2xl md:text-5xl md:text-left md:mt-0 mb-10">Receive payment <br /> quickly from anywhere</h1>
-                        <p className="md:w-2/3 md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">Switch Wallet is the one of the fastest Bitcoin and blockchain wallet infrastructure service on the market with a Global footprint. You are assured your customers can pay  and receive payments quickly, conveniently and securely with either cryptocurrency or via bank transfer. We're your new choice for a payment gateway provider.</p>
+                        <p className="md:w-2/3 md:text-left leading-relaxed text-lg text-gray-600 font-dmsans">Switch Wallet is the one of the fastest Bitcoin and blockchain wallet infrastructure service on the market with a Global footprint. You are assured your customers can pay  and receive payments quickly, conveniently and securely with either cryptocurrency or via bank transfer. We're your new choice for a payment gateway provider.</p>
                     </div>
                     <div className="md:w-1/2 flex items-end justify-end">
                         <img className='w-full' src="assets/images/developers2.svg" alt="Developers" />
@@ -66,7 +65,7 @@ function Developers() {
             <MindBlowing />
 
             <section>
-                <div className="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row md:my-44">
+                <div className="max-w-7xl flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row md:my-10">
                     <div className="md:w-2/3 flex flex-col">
                         <h5 className='font-dmsans font-medium text-xl mb-5 text-slate-700 my-10'>Our Features</h5>
                         <h1 className="font-rubik font-bold text-slate-700 text-2xl md:text-5xl md:text-left md:mt-0 mb-10">Manage all expenses & <br /> income from your <br /> dashboard</h1>
@@ -77,8 +76,6 @@ function Developers() {
                     </div>
                 </div>
             </section>
-
-            {/* <CustomersReview /> */}
 
         </Layout>
     )
