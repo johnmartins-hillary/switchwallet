@@ -126,18 +126,18 @@ function Pricing() {
                                 </thead>
                                 <thead>
                                     <tr>
-                                        <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-dmsans font-semibold">Charges</th>
+                                        <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-dmsans font-semibold">Price</th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-semibold text-gray-600">
-                                            <p className="text-gradient font-manrope text-xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>0/Month</p>
+                                            <p className="text-gradient font-manrope text-xl font-bold whitespace-no-wrap">Free</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>500/Month</p>
+                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap"><span className='text-lg'>$</span>10k</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>300/Month</p>
+                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">-</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap"><span className='text-2xl'>$</span>40/Month</p>
+                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">0.4<span className='text-lg'>%</span></p>
                                         </th>
                                     </tr>
                                 </thead>
