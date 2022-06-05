@@ -1,14 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
-// import MindBlowing from '../components/MindBlowing';
-// import CustomersReview from '../components/CustomersReview';
 
 function GlobalBrands() {
     return (
         <Layout>
 
             <section>
-                <div className="max-w-7xl flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row my-20">
+                <div className="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row my-20">
                     <div className="md:w-2/3 flex flex-col">
                         <h1 className="font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mt-16 mb-10">API suite to build amazing wallet infrastructure service experiences</h1>
                         <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">It's never been easier, faster, or more reliable for your business to use a wallet infrastructure. SwitchWallet offers a fantastic blockchain transaction experience to your crypto solution.</p>
@@ -22,13 +20,8 @@ function GlobalBrands() {
                 </div>
             </section>
 
-            {/* <section className='max-w-7xl mx-auto text-center md:my-28 my-16 md:px-0 px-10'>
-                <h5 className='font-rubik font-normal text-xl mb-5'>Companies we have help grow with SwitchWallet</h5>
-                <img className='mx-auto' src="assets/images/brands.svg" alt="Brands" />
-            </section> */}
-
-            <section className='my-20 md:my-60'>
-                <div className="container px-6 py-10 mx-auto">
+            <section className='my-20 md:my-40'>
+                <div className="max-w-7xl px-6 py-10 mx-auto">
                     <h1 className="font-rubik font-bold text-slate-700 text-2xl md:text-5xl text-center dark:text-white">Specially Designed for wallet infrastructure service</h1>
                     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-32 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
                         <div className="p-8 border bg-white z-30">
@@ -74,7 +67,7 @@ function GlobalBrands() {
             </section>
 
             <section className="bg-white">
-                <div className="container mx-auto px-5">
+                <div className="max-w-7xl mx-auto px-5">
                     <div className="lg:flex lg:items-center">
                         <div className="w-full space-y-16 lg:w-1/2">
                             <div>
@@ -146,7 +139,7 @@ function GlobalBrands() {
             </section>
 
             <section className='my-20 md:my-32'>
-                <div className="container px-6 py-10 mx-auto">
+                <div className="max-w-7xl px-6 py-10 mx-auto">
                     <h1 className="font-rubik font-bold text-black text-2xl md:text-5xl text-center">Our best features designed for your Product</h1>
                     <p className="font-dmsans text-center mt-12 text-lg text-gray-500 max-w-xl mx-auto">We are the only wallet provider to offer you high-security, cold storage, offline data protection, and encryption of your crypto funds with full transparency and support.</p>
                     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-20 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
@@ -183,10 +176,6 @@ function GlobalBrands() {
                     </div>
                 </div>
             </section>
-
-            {/* <MindBlowing /> */}
-
-            {/* <CustomersReview /> */}
 
         </Layout>
     )
