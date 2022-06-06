@@ -178,7 +178,7 @@ function Pricing() {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    {/* <tr>
                                         <td className="px-5 py-3 border-b-2 border-gray-200 text-left font-dmsans font-semibold">Credits</td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                             <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
@@ -187,7 +187,10 @@ function Pricing() {
                                             <p className="text-gray-900 whitespace-no-wrap">100,000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">50,000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">500 per month</p>
+                                        </td>
+                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                            <p className="text-gray-900 whitespace-no-wrap">86400 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                             <p className="text-gray-900 whitespace-no-wrap">20,000 per month</p>
@@ -201,35 +204,32 @@ function Pricing() {
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                             <p className="text-gray-900 whitespace-no-wrap">20,000 per month</p>
                                         </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">20,000 per month</p>
-                                        </td>
-                                    </tr>
+                                    </tr> */}
                                     <tr>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] font-dmsans font-semibold">Requests</td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
                                             <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">400 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">200 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">5000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">300 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">2000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">300 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">300 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">2000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">300 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">300 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -238,25 +238,25 @@ function Pricing() {
                                             <p className="text-gray-900 whitespace-no-wrap">All Networks</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">BNB Chain, Avea, ETH, Polygon.</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Ethereum, BNB Chain, Polygon</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">ETH</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Ethereum, Optimism</p>
+                                        </td>
+                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                            <p className="text-gray-900 whitespace-no-wrap">Ethereum, BNB Chain</p>
+                                        </td>
+                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                            <p className="text-gray-900 whitespace-no-wrap">Ethereum, Optimism</p>
+                                        </td>
+                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                            <p className="text-gray-900 whitespace-no-wrap">Ethereum, Optimism</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                             <p className="text-gray-900 whitespace-no-wrap">BNB Chain</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">All Networks</p>
-                                        </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">ETH, Avea</p>
-                                        </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">BNB Chain</p>
-                                        </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">ETH, BNB Chain</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Ethereum</p>
                                         </td>
                                     </tr>
                                 </tbody>
