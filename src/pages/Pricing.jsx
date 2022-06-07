@@ -24,7 +24,7 @@ const Pricing = () => {
                                         <path d="M9.11759 9.66332L11.5696 11.5023C12.237 12.0029 13.1774 11.9045 13.7268 11.2767L19.1145 5.11926" stroke="white" stroke-width="2.53608" stroke-linecap="round" />
                                         <path d="M20.0231 11.4808C20.0231 13.1898 19.4878 14.8559 18.4924 16.2451C17.4969 17.6342 16.0913 18.6767 14.473 19.226C12.8547 19.7754 11.1049 19.804 9.46952 19.3079C7.8341 18.8118 6.39515 17.8159 5.35477 16.46C4.3144 15.1042 3.72485 13.4565 3.66893 11.7484C3.61301 10.0403 4.09354 8.35763 5.04301 6.93664C5.99249 5.51565 7.36322 4.42776 8.96269 3.82576C10.5622 3.22376 12.31 3.13789 13.9608 3.58022" stroke="white" stroke-width="2.53608" stroke-linecap="round" />
                                     </svg>
-                                    <p className='font-dmsans font-bold text-sm md:text-[18px]'>No Hidden Charges</p>
+                                    <p className='font-dmsans font-bold text-sm md:text-[18px]'>No Hidden Cost</p>
                                 </div>
                                 <div className='flex gap-5'>
                                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
