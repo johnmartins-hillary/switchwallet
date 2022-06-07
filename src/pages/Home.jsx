@@ -40,7 +40,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="flex flex-col w-full lg:w-2/4 p-8">
-                        <p className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold text-[#444444]">Multichain Crypo Wallet API</p>
+                        <p className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold text-[#444444]">Multichain Crypto Wallet API</p>
                         <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">Digital assets are the new world currency. Switch Wallet provides an API infrastructure service that allows you to transact digital assets, across multiple chains and guarantee high-level security for your transactions.</p>
                     </div>
                 </div>
