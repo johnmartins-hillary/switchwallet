@@ -38,7 +38,7 @@ function Pricing() {
                                         <path d="M9.11759 9.66332L11.5696 11.5023C12.237 12.0029 13.1774 11.9045 13.7268 11.2767L19.1145 5.11926" stroke="white" stroke-width="2.53608" stroke-linecap="round" />
                                         <path d="M20.0231 11.4808C20.0231 13.1898 19.4878 14.8559 18.4924 16.2451C17.4969 17.6342 16.0913 18.6767 14.473 19.226C12.8547 19.7754 11.1049 19.804 9.46952 19.3079C7.8341 18.8118 6.39515 17.8159 5.35477 16.46C4.3144 15.1042 3.72485 13.4565 3.66893 11.7484C3.61301 10.0403 4.09354 8.35763 5.04301 6.93664C5.99249 5.51565 7.36322 4.42776 8.96269 3.82576C10.5622 3.22376 12.31 3.13789 13.9608 3.58022" stroke="white" stroke-width="2.53608" stroke-linecap="round" />
                                     </svg>
-                                    <p className='font-dmsans font-bold text-sm md:text-[18px]'>API Intergrations</p>
+                                    <p className='font-dmsans font-bold text-sm md:text-[18px]'>API Integrations</p>
                                 </div>
                                 <div className='flex gap-5'>
                                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@ function Pricing() {
                                         <path d="M8.2753 10.0121L10.7273 11.8511C11.3947 12.3516 12.3351 12.2533 12.8845 11.6254L18.2722 5.46802" stroke="#767676" stroke-width="2.53608" stroke-linecap="round" />
                                         <path d="M19.1809 11.8296C19.1809 13.5386 18.6455 15.2047 17.6501 16.5938C16.6546 17.983 15.249 19.0254 13.6307 19.5748C12.0124 20.1241 10.2627 20.1528 8.62724 19.6567C6.99182 19.1606 5.55287 18.1647 4.51249 16.8088C3.47211 15.453 2.88256 13.8053 2.82664 12.0972C2.77073 10.3891 3.25125 8.70638 4.20073 7.28539C5.1502 5.8644 6.52093 4.77651 8.1204 4.17451C9.71988 3.57251 11.4677 3.48665 13.1185 3.92897" stroke="#767676" stroke-width="2.53608" stroke-linecap="round" />
                                     </svg>
-                                    <p className='font-dmsans font-bold text-sm md:text-[18px]'>API Intergrations</p>
+                                    <p className='font-dmsans font-bold text-sm md:text-[18px]'>API Integrations</p>
                                 </div>
                                 <div className='flex gap-5'>
                                     <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -150,18 +150,18 @@ function Pricing() {
                                 </thead>
                                 <thead>
                                     <tr>
-                                        <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-dmsans font-semibold">Price</th>
+                                        <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-dmsans font-semibold"> Pricing Structure</th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-semibold text-gray-600">
                                             <p className="text-gradient font-manrope text-xl font-bold whitespace-no-wrap">Free</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap"><span className='text-lg'>$</span>10k</p>
+                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">$10k change to 0-$10k setup fee, 0.5%p/y min bal. $500k</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
                                             <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">-</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">0.4<span className='text-lg'>%</span></p>
+                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">0.4% change to no set up fee, 0.4% p/y no min bal.</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
                                             <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">-</p>
@@ -184,25 +184,25 @@ function Pricing() {
                                             <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">100,000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">3000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">500 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">86400 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">20,000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">20,000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">20,000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">20,000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
                                         </td>
                                     </tr> */}
                                     <tr>
@@ -214,22 +214,22 @@ function Pricing() {
                                             <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">5000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">2000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">2000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -250,7 +250,7 @@ function Pricing() {
                                             <p className="text-gray-900 whitespace-no-wrap">Ethereum, Optimism</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">Ethereum, Optimism</p>
+                                            <p className="text-gray-900 whitespace-no-wrap">Ethereum</p>
                                         </td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                             <p className="text-gray-900 whitespace-no-wrap">BNB Chain</p>
