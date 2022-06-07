@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CustomersReview() {
+const CustomersReview = () => {
     return (
         <section className="flex items-center justify-center md:my-40 my-10">
             <div className="w-full container mx-auto">

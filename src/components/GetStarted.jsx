@@ -1,6 +1,6 @@
 import React from 'react';
 
-function GetStarted() {
+const GetStarted = () => {
     return (
         <section>
             <div className="max-w-7xl mx-auto flex flex-col items-center justify-center text-center my-10 md:my-32 px-6">

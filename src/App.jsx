@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 import ComingSoon from "./pages/ComingSoon";
 import ScrollToTop from "./components/ScrollTop";
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <ScrollToTop />

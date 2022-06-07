@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
 
-function Home() {
+const Home = () => {
     return (
         <Layout>
 
@@ -50,7 +50,7 @@ function Home() {
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row my-12 md:my-20">
                     <div className="flex flex-col w-full lg:w-3/5 p-8 md:order-1 order-2">
                         <h1 className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold text-[#444444]">Secure, low-cost Wallet  Service</h1>
-                        <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">We help businesses save time and money building solutions on the blockchain. With our easy and simple setup process, we'll have you enjoying our service in no time. Switch Wallet offers the best competitive rates, fast & secure transactions, and a variety of customizable features to help your business succeed.</p>
+                        <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-[#52575C]">We help businesses save time and money building solutions on the blockchain. With our easy and simple setup process, we'll have you enjoying our service in no time. Switch Wallet offers the best competitive rates, fast & crypto transactions, and a variety of customizable features to help your business succeed.</p>
                     </div>
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
@@ -169,7 +169,7 @@ function Home() {
                 <div className="max-w-7xl flex flex-col-reverse items-center mx-auto space-y-0 md:space-y-0 md:flex-row md:py-20">
                     <div className="flex flex-col md:w-1/2">
                         <h1 className="max-w-md text-2xl font-rubik font-bold md:text-5xl md:text-left md:mt-0 mt-10 text-[#444444]">Business & Partners that trust SwitchWallet</h1>
-                        <p className="max-w-lg md:text-left font-dmsans text-base md:text-lg font-normal my-10 text-[#757575]">A product of XendFinance SwitchWallet is a product of XendFinance that has been steadily improving. With SwitchWallet, you can securely store your wallet on our servers, and enjoy the cheapest wallet provider service you can get.</p>
+                        <p className="max-w-lg md:text-left font-dmsans text-base md:text-lg font-normal my-10 text-[#757575]">SwitchWallet is a product of XendFinance that has been steadily improving. With SwitchWallet, you can securely store your wallet on our servers, and enjoy the cheapest wallet provider service you can get.</p>
                     </div>
                 </div>
             </section>

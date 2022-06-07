@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MindBlowing() {
+const MindBlowing = () => {
     return (
         <section className='my-20 md:my-32'>
             <img className='absolute right-0 hidden md:block' src="assets/images/Developers6.svg" alt="Developers" />
