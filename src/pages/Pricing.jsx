@@ -152,59 +152,32 @@ function Pricing() {
                                     <tr>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-dmsans font-semibold"> Pricing Structure</th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left font-semibold text-gray-600">
-                                            <p className="text-gradient font-manrope text-xl font-bold whitespace-no-wrap">Free</p>
+                                            <p className="text-gradient font-manrope text-sm font-bold whitespace-no-wrap">Free</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">$10k change to 0-$10k setup fee, 0.5%p/y min bal. $500k</p>
+                                            <p className="text-gray-900 font-manrope text-sm font-bold whitespace-no-wrap">$10k change to 0-$10k setup fee, 0.5%p/y min bal. $500k</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">-</p>
+                                            <p className="text-gray-900 font-manrope text-sm font-bold whitespace-no-wrap">-</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">0.4% change to no set up fee, 0.4% p/y no min bal.</p>
+                                            <p className="text-gray-900 font-manrope text-sm font-bold whitespace-no-wrap">0.4% change to no set up fee, 0.4% p/y no min bal.</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">-</p>
+                                            <p className="text-gray-900 font-manrope text-sm font-bold whitespace-no-wrap">-</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">-</p>
+                                            <p className="text-gray-900 font-manrope text-sm font-bold whitespace-no-wrap">-</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">-</p>
+                                            <p className="text-gray-900 font-manrope text-sm font-bold whitespace-no-wrap">-</p>
                                         </th>
                                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-[#F5F5F5] text-left text-xs font-semibold text-gray-600">
-                                            <p className="text-gray-900 font-manrope text-xl font-bold whitespace-no-wrap">-</p>
+                                            <p className="text-gray-900 font-manrope text-sm font-bold whitespace-no-wrap">-</p>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {/* <tr>
-                                        <td className="px-5 py-3 border-b-2 border-gray-200 text-left font-dmsans font-semibold">Credits</td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">Unlimted</p>
-                                        </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">3000 per month</p>
-                                        </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
-                                        </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
-                                        </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
-                                        </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
-                                        </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
-                                        </td>
-                                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                            <p className="text-gray-900 whitespace-no-wrap">1000 per month</p>
-                                        </td>
-                                    </tr> */}
                                     <tr>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] font-dmsans font-semibold">Requests</td>
                                         <td className="px-5 py-5 border-b border-gray-200 bg-[#F5F5F5] text-sm">
