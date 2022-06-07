@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-function Footer() {
+const Footer = () => {
     return (
         <footer>
             <div className="container border-t-2 px-4 md:py-32 py-16 mx-auto sm:px-6 lg:px-8">

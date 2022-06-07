@@ -2,7 +2,7 @@ import React from 'react';
 import GetStarted from '../components/GetStarted';
 import Layout from '../components/Layout';
 
-function FAQ() {
+const FAQ = () => {
     return (
         <Layout>
 

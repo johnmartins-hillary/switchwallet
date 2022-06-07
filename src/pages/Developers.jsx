@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import MindBlowing from '../components/MindBlowing';
 
-function Developers() {
+const Developers = () => {
     return (
         <Layout>
 
