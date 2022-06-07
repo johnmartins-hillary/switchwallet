@@ -88,7 +88,7 @@ function Pricing() {
                 </div>
             </section>
 
-            <section>
+            {/* <section>
                 <div className="max-w-7xl mx-auto px-5 md:px-0 text-gray-500 mt-10 md:mt-20">
                     <h1 className='font-rubik font-bold text-3xl md:text-left md:text-4xl text-[#010101] mb-8 md:mb-10'>Why Choose us?</h1>
                     <p className='text-[#373737 max-w-sm mb-10'>Compare us to other wallet service providers we offer the lowest charges posible to get your business up and runing.. </p>
@@ -237,7 +237,7 @@ function Pricing() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="container mx-auto bg-white my-10 md:my-28">
                 <div className='max-w-7xl mx-auto pl-8 md:pl-4'>
