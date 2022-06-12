@@ -22,7 +22,7 @@ const GlobalBrands = () => {
 
             <section className='my-20 md:my-40'>
                 <div className="max-w-7xl px-6 py-10 mx-auto">
-                    <h1 className="font-rubik font-bold text-slate-700 text-2xl md:text-5xl text-center dark:text-white">Specially Designed for wallet infrastructure service</h1>
+                    <h1 className="font-rubik font-bold text-slate-700 text-2xl md:text-5xl text-center">Specially Designed for wallet infrastructure service</h1>
                     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-32 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
                         <div className="p-8 border bg-white z-30">
                             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -38,7 +38,7 @@ const GlobalBrands = () => {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Faster Processing Time</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Transactions and orders done with SwitchWallet are processed promptly, so you can maximize your time  and money.</p>
+                            <p className=" leading-relaxed text-lg text-gray-600 font-dmsans">Transactions and orders done with SwitchWallet are processed promptly, so you can maximize your time  and money.</p>
                         </div>
                         <div className="p-8 border bg-white z-30">
                             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -50,7 +50,7 @@ const GlobalBrands = () => {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">No Hidden Charges</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">We charge the lowest amount possible for transactions, with the major cost being the gas fee.</p>
+                            <p className=" leading-relaxed text-lg text-gray-600 font-dmsans">We charge the lowest amount possible for transactions, with the major cost being the gas fee.</p>
                         </div>
                         <div className="p-8 border bg-white z-30">
                             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -60,7 +60,7 @@ const GlobalBrands = () => {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">No Extra Fees</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">We offer our customers hassle-free transactions at no additional charge .</p>
+                            <p className=" leading-relaxed text-lg text-gray-600 font-dmsans">We offer our customers hassle-free transactions at no additional charge .</p>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ const GlobalBrands = () => {
                         <div className="w-full space-y-16 lg:w-1/2">
                             <div>
                                 <h5 className='font-dmsans font-medium text-xl text-slate-700 text-gradient mb-5'>Why Choose us</h5>
-                                <h1 className="text-2xl font-rubik font-bold text-[#444444] md:text-5xl dark:text-white md:w-3/4">Designed to meet all your Business Needs</h1>
+                                <h1 className="text-2xl font-rubik font-bold text-[#444444] md:text-5xl md:w-3/4">Designed to meet all your Business Needs</h1>
                                 <p className='text-[#757575] font-dmsans font-medium text-lg mt-10 md:w-2/3'>Start building your crypto project today with SwitchWallet  APIs and blockchain infrastructure.</p>
                             </div>
                             <div className="md:flex md:items-start md:-mx-4">
@@ -89,8 +89,8 @@ const GlobalBrands = () => {
                                     </svg>
                                 </span>
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold dark:text-white">Easy setup and onboarding</h1>
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">Our easy to use platform allows you to get familiarised with our key features within a short timeframe. Our efficient team is also readily available to help with any unprecedented challenges.</p>
+                                    <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold">Easy setup and onboarding</h1>
+                                    <p className="mt-3 text-gray-500  w-2/3">Our easy to use platform allows you to get familiarised with our key features within a short timeframe. Our efficient team is also readily available to help with any unprecedented challenges.</p>
                                 </div>
                             </div>
                             <div className="md:flex md:items-start md:-mx-4">
@@ -107,8 +107,8 @@ const GlobalBrands = () => {
                                     </svg>
                                 </span>
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold dark:text-white">Dedicated Team</h1>
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">When you're building a new product or software, the last thing you want to worry about is integrating your API. We automate the hassle for you with our dedicated team of experts who will work with you to integrate your API seamlessly.</p>
+                                    <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold">Dedicated Team</h1>
+                                    <p className="mt-3 text-gray-500  w-2/3">When you're building a new product or software, the last thing you want to worry about is integrating your API. We automate the hassle for you with our dedicated team of experts who will work with you to integrate your API seamlessly.</p>
                                 </div>
                             </div>
                             <div className="md:flex md:items-start md:-mx-4">
@@ -126,8 +126,8 @@ const GlobalBrands = () => {
                                     </svg>
                                 </span>
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold dark:text-white">24/7 Hours Support</h1>
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300 w-2/3">We provide 24/7 live chat & email support, so that you never have to worry about any unprecedented challenges.</p>
+                                    <h1 className="text-2xl text-gray-700 capitalize font-rubik font-bold">24/7 Hours Support</h1>
+                                    <p className="mt-3 text-gray-500  w-2/3">We provide 24/7 live chat & email support, so that you never have to worry about any unprecedented challenges.</p>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +151,7 @@ const GlobalBrands = () => {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Solid Infrastructure</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Besides having the best digital wallet infrastructure in Africa, we deepen innovation so that we can create a very reliable system for you</p>
+                            <p className=" leading-relaxed text-lg text-gray-600 font-dmsans">Besides having the best digital wallet infrastructure in Africa, we deepen innovation so that we can create a very reliable system for you</p>
                         </div>
                         <div className="p-8 border bg-white z-40 rounded-2xl text-center">
                             <span className="inline-block text-blue-500 dark:text-blue-400 mx-auto">
@@ -161,7 +161,7 @@ const GlobalBrands = () => {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Review transactions</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Manage your solution transactions in our platform designed to meet all your needs.</p>
+                            <p className=" leading-relaxed text-lg text-gray-600 font-dmsans">Manage your solution transactions in our platform designed to meet all your needs.</p>
                         </div>
                         <div className="p-8 border bg-white z-40 rounded-2xl text-center">
                             <span className="inline-block text-blue-500 dark:text-blue-400 mx-auto">
@@ -171,7 +171,7 @@ const GlobalBrands = () => {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Get transaction insights</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">View detailed analysis of your transactions and orders with insights on transaction flows, managing your keys, and transacting in different crypto currencies.</p>
+                            <p className=" leading-relaxed text-lg text-gray-600 font-dmsans">View detailed analysis of your transactions and orders with insights on transaction flows, managing your keys, and transacting in different crypto currencies.</p>
                         </div>
                     </div>
                 </div>

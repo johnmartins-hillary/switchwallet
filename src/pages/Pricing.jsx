@@ -5,7 +5,7 @@ const Pricing = () => {
     return (
         <Layout>
 
-            <section className="bg-white dark:bg-gray-900">
+            <section className="bg-white">
                 <div className="max-w-7xl px-5 md:px-0 py-10 md:py-20 mx-auto">
                     <h1 className="font-rubik font-bold text-2xl md:text-5xl text-gradient max-w-2xl">Pricing that suits your business. Start Building today</h1>
                     <p className="mt-4 text-[#373737] xl:mt-6 max-w-md text-base md:text-lg">Scale your  enterprise, start-up, ecommernce, or Metaverse NFTs Business. Get Started for free.</p>

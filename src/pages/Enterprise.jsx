@@ -39,7 +39,7 @@ const Enterprise = () => {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Solid Infrastructure</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Besides having the best digital wallet infrastructure in Africa, we deepen innovation so that we can create a very reliable system for you</p>
+                            <p className="leading-relaxed text-lg text-gray-600 font-dmsans">Besides having the best digital wallet infrastructure in Africa, we deepen innovation so that we can create a very reliable system for you</p>
                         </div>
                         <div className="p-8 border bg-white z-40 rounded-2xl text-center">
                             <span className="inline-block text-blue-500 dark:text-blue-400 mx-auto">
@@ -49,7 +49,7 @@ const Enterprise = () => {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Review transactions</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">Manage your solution transactions in our platform designed to meet all your needs.</p>
+                            <p className="leading-relaxed text-lg text-gray-600 font-dmsans">Manage your solution transactions in our platform designed to meet all your needs.</p>
                         </div>
                         <div className="p-8 border bg-white z-40 rounded-2xl text-center">
                             <span className="inline-block text-blue-500 dark:text-blue-400 mx-auto">
@@ -59,7 +59,7 @@ const Enterprise = () => {
                                 </svg>
                             </span>
                             <h1 className="font-rubik font-medium text-3xl mb-10 mt-6 text-gray-700">Get transaction insights</h1>
-                            <p className="dark:text-gray-300 leading-relaxed text-lg text-gray-600 font-dmsans">View detailed analysis of your transactions and orders with insights on transaction flows, managing your keys, and transacting in different crypto currencies.</p>
+                            <p className="leading-relaxed text-lg text-gray-600 font-dmsans">View detailed analysis of your transactions and orders with insights on transaction flows, managing your keys, and transacting in different crypto currencies.</p>
                         </div>
                     </div>
                 </div>
