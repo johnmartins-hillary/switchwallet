@@ -2,13 +2,13 @@ import React from 'react';
 
 const GetStarted = () => {
     return (
-        <section>
-            <div className="max-w-7xl mx-auto flex flex-col items-center justify-center text-center my-10 md:my-32 px-6">
-                <h1 className="font-rubik font-bold text-gradient text-xl md:text-6xl mb-5 md:mb-14">Get Started WIth SwitchWallet</h1>
-                <p className="max-w-lg font-dmsans font-normal text-base md:text-xl text-slate-500 mb-10">With Switch Wallet, you can provide your customers with the most convenient way to pay for their goods and services using digital currencies..</p>
-                <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
-                    <button type='button' className='p-4 md:w-56 w-40 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
-                </a>
+        <section className="mx-5">
+            <div className="container max-w-7xl rounded-2xl mx-auto py-20 bg-gradient my-20 text-center px-5">
+                <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-4xl md:text-5xl xl:text-4xl">A set way of taking your business to the next level</h2>
+                <p className="max-w-md mx-auto mt-3 text-base text-gray-400 sm:text-lg md:mt-5 md:text-lg md:max-w-3xl">We have the most affordable solution that allows businesses to perform transactions in multiple cryptocurrencies and digital assets. Our solution provides uber swift transactions, giving you the best support in the market.                    </p>
+                <div className="flex justify-center mt-8 space-x-3">
+                    <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-60 px-6 py-3 mb-3 text-black bg-white sm:mb-0 sm:w-auto font-dmsans text-lg font-bold rounded-full md:w-56 shadow-md">Create Account</a>
+                </div>
             </div>
         </section>
     )
