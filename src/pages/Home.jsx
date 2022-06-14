@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Layout from '../components/Layout';
 import GetStarted from "../components/GetStarted";
 
 const Home = () => {
+    const navigate = useNavigate();
     return (
         <Layout>
 
@@ -100,7 +101,7 @@ const Home = () => {
                                 <h2 className="text-2xl md:text-3xl mb-5 font-rubik font-bold text-[#444444]">Switch Wallet For Startup</h2>
                                 <p className="text-black">A new wave of wallet infrastructure solutions for Startups. Switch Wallet is a wallet funding platform that provides the seamless transaction of multiple cryptocurrencies for Startups</p>
                                 <Link to="#">
-                                    <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold text-lg text-center text-gradient bg-transparent border-2 border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
+                                    <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold text-lg text-center text-gradient bg-transparent border-2 border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2' onClick={navigate("/global-brands")}>
                                         Get Started
                                         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M17.3914 10.5001L17.9909 9.90061L18.5904 10.5001L17.9909 11.0996L17.3914 10.5001ZM4.67402 11.3479C4.20577 11.3479 3.82619 10.9684 3.82619 10.5001C3.82619 10.0319 4.20577 9.65229 4.67402 9.65229V11.3479ZM12.904 4.81364L17.9909 9.90061L16.7919 11.0996L11.705 6.01265L12.904 4.81364ZM17.9909 11.0996L12.904 16.1866L11.705 14.9876L16.7919 9.90061L17.9909 11.0996ZM17.3914 11.3479H4.67402V9.65229H17.3914V11.3479Z" fill="url(#paint0_linear_195_746)" />
@@ -123,7 +124,7 @@ const Home = () => {
                                 <h2 className="text-2xl md:text-3xl mb-5 font-rubik font-bold text-[#444444]">Switch Wallet For Enterprise</h2>
                                 <p className="text-black md:pb-6">Value for businesses with easy and convenient access to the most affordable wallet provider service that has a solid infrastructure and excellent support.</p>
                                 <Link to="#">
-                                    <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold text-lg text-center text-gradient bg-transparent border-2 border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
+                                    <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold text-lg text-center text-gradient bg-transparent border-2 border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2' onClick={navigate("/global-brands")}>
                                         Get Started
                                         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M17.3914 10.5001L17.9909 9.90061L18.5904 10.5001L17.9909 11.0996L17.3914 10.5001ZM4.67402 11.3479C4.20577 11.3479 3.82619 10.9684 3.82619 10.5001C3.82619 10.0319 4.20577 9.65229 4.67402 9.65229V11.3479ZM12.904 4.81364L17.9909 9.90061L16.7919 11.0996L11.705 6.01265L12.904 4.81364ZM17.9909 11.0996L12.904 16.1866L11.705 14.9876L16.7919 9.90061L17.9909 11.0996ZM17.3914 11.3479H4.67402V9.65229H17.3914V11.3479Z" fill="url(#paint0_linear_195_746)" />
@@ -146,7 +147,7 @@ const Home = () => {
                                 <h2 className="text-2xl md:text-3xl mb-5 font-rubik font-bold text-[#444444]">Switch Wallet For Global Brand</h2>
                                 <p className="text-black md:pb-6">A new generation wallet  service provider. We provide a cost-efficient and scalable solution for Global brands that want to build blockchain solutions and services.</p>
                                 <Link to="#">
-                                    <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold text-lg text-center text-gradient bg-transparent border-2 border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2'>
+                                    <button type='button' className='p-3 md:w-56 w-40 mt-10 cursor-pointer font-dmsans font-bold text-lg text-center text-gradient bg-transparent border-2 border-gradient rounded-full focus:outline-none flex items-center justify-center md:gap-5 gap-2' onClick={navigate("/global-brands")}>
                                         Get Started
                                         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M17.3914 10.5001L17.9909 9.90061L18.5904 10.5001L17.9909 11.0996L17.3914 10.5001ZM4.67402 11.3479C4.20577 11.3479 3.82619 10.9684 3.82619 10.5001C3.82619 10.0319 4.20577 9.65229 4.67402 9.65229V11.3479ZM12.904 4.81364L17.9909 9.90061L16.7919 11.0996L11.705 6.01265L12.904 4.81364ZM17.9909 11.0996L12.904 16.1866L11.705 14.9876L16.7919 9.90061L17.9909 11.0996ZM17.3914 11.3479H4.67402V9.65229H17.3914V11.3479Z" fill="url(#paint0_linear_195_746)" />
