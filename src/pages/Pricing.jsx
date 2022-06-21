@@ -7,8 +7,8 @@ const Pricing = () => {
 
             <section className="bg-white">
                 <div className="max-w-7xl px-5 md:px-0 py-10 md:py-20 mx-auto">
-                    <h1 className="font-extrabold text-3xl md:text-5xl text-gradient max-w-2xl">Pricing that suits your business. Start Building today</h1>
-                    <p className="mt-4 text-[#373737] xl:mt-6 max-w-md text-base md:text-lg">Scale your  enterprise, start-up, ecommernce, or Metaverse NFTs Business. Get Started for free.</p>
+                    <h1 className="font-extrabold text-3xl md:text-5xl text-gradient max-w-2xl">Pricing that suits your business. Start building today!</h1>
+                    <p className="mt-4 text-[#373737] xl:mt-6 max-w-md text-base md:text-lg">Scale your  enterprise, startup, E-commernce, or Metaverse NFT business. Get started for free.</p>
                     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-20 md:grid-cols-2 xl:grid-cols-2">
                         <div className="p-10 md:p-20 space-y-10 border rounded-[25.3008px] bg-gradient text-white">
                             <h3 className="text-xl md:text-2xl font-semibold">For startups and innovators</h3>
@@ -90,7 +90,7 @@ const Pricing = () => {
 
             <section className="container mx-auto bg-white my-10 md:my-28">
                 <div className='max-w-7xl mx-auto pl-8 md:pl-4'>
-                    <h1 className='font-rubik font-bold text-4xl'>More about us</h1>
+                    <h1 className='font-rubik font-bold text-4xl'>More About Us</h1>
                 </div>
                 <div tabIndex={0} aria-label="group of cards" className="focus:outline-none mt-5 flex flex-wrap justify-center gap-10 px-4">
                     <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 rounded-3xl p-5">
@@ -108,7 +108,7 @@ const Pricing = () => {
                     <div tabIndex={0} aria-label="card 3" className="focus:outline-none flex sm:w-full md:w-5/12 rounded-3xl p-5">
                         <div className="w-10/12">
                             <h2 tabIndex={0} className="focus:outline-none text-xl text-gray-800 font-rubik font-medium">No Hidden Charges</h2>
-                            <p tabIndex={0} className="focus:outline-none text-gray-500 font-dmsans text-lg font-medium pt-2">We charge the lowest amount possible for transactions, with the major cost being the gas fee.</p>
+                            <p tabIndex={0} className="focus:outline-none text-gray-500 font-dmsans text-lg font-medium pt-2">We charge the lowest amount possible for transactions, with the major cost being the gas fees.</p>
                         </div>
                     </div>
                     <div tabIndex={0} aria-label="card 4" className="focus:outline-none flex sm:w-full md:w-5/12 rounded-3xl p-5">

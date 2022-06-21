@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
                         <img src="assets/images/logo.svg" className="mr-5" alt="logo" />
-                        <p className="max-w-md mt-4 text-lg font-dmsans text-[#2f3033]">The cheapest wallet infrastructure for startups and businesses. Built and secured by XendFinance.</p>
+                        <p className="max-w-md mt-4 text-lg font-dmsans text-[#2f3033]">The lowest cost wallet infrastructure for startups and businesses. Built and secured by the award-winning technical team at Xend Finance.</p>
                     </div>
                     <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3">
                         <div>
