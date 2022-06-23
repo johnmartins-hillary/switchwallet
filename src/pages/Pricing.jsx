@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
 
 const Pricing = () => {
@@ -13,7 +14,7 @@ const Pricing = () => {
                         <div className="p-10 md:p-20 space-y-10 border rounded-[25.3008px] bg-gradient text-white">
                             <h3 className="text-xl md:text-2xl font-semibold">For startups and innovators</h3>
                             <h1 className='font-rubik text-8xl font-bold'>$0</h1>
-                            <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer" className=''>
+                            <a href="https://stg-integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
                                 <button type='button' className='p-4 bg-white hover:bg-white w-60 md:w-64 rounded-[35.5907px] cursor-pointer mt-10'>
                                     <p className='text-gradient font-dmsans font-bold text-lg'>Get Started - For free</p>
                                 </button>
@@ -52,7 +53,9 @@ const Pricing = () => {
                         <div className="p-10 md:p-20 space-y-10 border rounded-[25.3008px]">
                             <h3 className="text-xl md:text-2xl font-semibold text-[#292929]">For enterprise and global brands</h3>
                             <h1 className='font-rubik text-6xl md:text-8xl font-bold text-gradient'>Custom</h1>
-                            <button type='text' className='p-4 w-60 md:w-64 cursor-pointer rounded-[35.5907px] font-dmsans font-bold md:text-lg text-center text-lg my-0 bg-[#2042B8] text-white'>Request a Consultation</button>
+                            <Link to="/contact">
+                                <button type='text' className='p-4 w-60 md:w-64 cursor-pointer rounded-[35.5907px] font-dmsans font-bold md:text-lg text-center text-lg mt-10 bg-[#2042B8] text-white'>Request a Consultation</button>
+                            </Link>
                             <div className='space-y-5'>
                                 <div className='flex gap-5'>
                                     <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
