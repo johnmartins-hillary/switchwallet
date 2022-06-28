@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
@@ -12,34 +13,30 @@ const Contact = () => {
 
     const navigate = useNavigate();
 
-    function SubmitHandler(e) {
+    const SubmitHandler = async (e) => {
         e.preventDefault();
         if (!(name && email && message && subject)) return;
+
+        const data = {
+            subject: subject,
+            name: name,
+            senderAddress: email,
+            message: message
+        };
+
         setLoading(true);
-        fetch('http://development.switchwallet.io/api/v1/contactform/contact-us', {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                subject: subject,
-                name: name,
-                senderAddress: email,
-                message: message
-            })
-        })
-            .then((response) => response.json())
-            .then((responseJson) => {
+        try {
+            const res = await axios.post('http://development.switchwallet.io/api/v1/contactform/contact-us', data)
+            if (res.status === 200) {
                 toast.success('Message Sent Successfully');
                 setLoading(false);
                 navigate('/');
-            })
-            .catch((error) => {
-                toast.error('Failed');
-                console.error(error);
-                setLoading(false)
-            })
+            }
+        } catch (error) {
+            toast.error('Failed');
+            console.error(error);
+            setLoading(false)
+        }
     }
 
     return (
