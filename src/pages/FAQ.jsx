@@ -20,8 +20,8 @@ const FAQ = () => {
                                             <path d="M2 2L8 7.02124L14 2" stroke="url(#paint0_linear_269_596)" stroke-width="2" stroke-miterlimit="10" strokeLinecap="square" />
                                             <defs>
                                                 <linearGradient id="paint0_linear_269_596" x1="0.964386" y1="2.0024" x2="3.29926" y2="9.02949" gradientUnits="userSpaceOnUse">
-                                                    <stop stop-color="#FF6600" />
-                                                    <stop offset="1" stop-color="#2042B8" />
+                                                    <stop stopColor="#FF6600" />
+                                                    <stop offset="1" stopColor="#2042B8" />
                                                 </linearGradient>
                                             </defs>
                                         </svg>
@@ -46,8 +46,8 @@ const FAQ = () => {
                                             <path d="M2 2L8 7.02124L14 2" stroke="url(#paint0_linear_269_596)" stroke-width="2" stroke-miterlimit="10" strokeLinecap="square" />
                                             <defs>
                                                 <linearGradient id="paint0_linear_269_596" x1="0.964386" y1="2.0024" x2="3.29926" y2="9.02949" gradientUnits="userSpaceOnUse">
-                                                    <stop stop-color="#FF6600" />
-                                                    <stop offset="1" stop-color="#2042B8" />
+                                                    <stop stopColor="#FF6600" />
+                                                    <stop offset="1" stopColor="#2042B8" />
                                                 </linearGradient>
                                             </defs>
                                         </svg>
@@ -76,8 +76,8 @@ const FAQ = () => {
                                             <path d="M2 2L8 7.02124L14 2" stroke="url(#paint0_linear_269_596)" stroke-width="2" stroke-miterlimit="10" strokeLinecap="square" />
                                             <defs>
                                                 <linearGradient id="paint0_linear_269_596" x1="0.964386" y1="2.0024" x2="3.29926" y2="9.02949" gradientUnits="userSpaceOnUse">
-                                                    <stop stop-color="#FF6600" />
-                                                    <stop offset="1" stop-color="#2042B8" />
+                                                    <stop stopColor="#FF6600" />
+                                                    <stop offset="1" stopColor="#2042B8" />
                                                 </linearGradient>
                                             </defs>
                                         </svg>
