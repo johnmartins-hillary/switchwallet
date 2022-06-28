@@ -1,22 +1,47 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import Layout from '../components/Layout';
 
 const Contact = () => {
+    const [subject, setSubject] = useState('');
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [loading, setLoading] = useState(false);
 
     const navigate = useNavigate();
 
     function SubmitHandler(e) {
         e.preventDefault();
-        const data = { name, email, message };
-        if (data) {
-            setTimeout(() => {
-                navigate('/');
-            }, 500);
-        }
+        if (!(name && email && message && subject)) return;
+        setLoading(true);
+        fetch('http://development.switchwallet.io/api/v1/contactform/contact-us', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                subject: subject,
+                name: name,
+                senderAddress: email,
+                message: message
+            })
+        })
+            .then((response) => response.json())
+            .then((responseJson) => {
+                if (responseJson.data.statusCode === 200) {
+                    toast.success('Message Sent Successfully');
+                    setLoading(false);
+                    navigate('/');
+                }
+            })
+            .catch((error) => {
+                toast.success('Failed');
+                console.error(error);
+                setLoading(false)
+            })
     }
 
     return (
@@ -30,6 +55,10 @@ const Contact = () => {
                         </div>
                         <form className="relative w-full mt-6 space-y-8" onSubmit={SubmitHandler}>
                             <div className="relative">
+                                <label className="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Your Subject</label>
+                                <input type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Subject" required value={subject} onChange={(e) => setSubject(e.target.value)} />
+                            </div>
+                            <div className="relative">
                                 <label className="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Full Name</label>
                                 <input type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="John Doe" required value={name} onChange={(e) => setName(e.target.value)} />
                             </div>
@@ -42,7 +71,7 @@ const Contact = () => {
                                 <textarea rows="5" type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Message" required value={message} onChange={(e) => setMessage(e.target.value)} />
                             </div>
                             <div className="relative">
-                                <button type='submit' className="inline-block w-full px-5 py-4 text-xl font-medium text-center text-white transition duration-200 bg-[#2042B8] hover:bg-[#2546bd] rounded-lg ease">Send</button>
+                                <button type='submit' className="inline-block w-full px-5 py-4 text-xl font-medium text-center text-white transition duration-200 bg-[#2042B8] hover:bg-[#2546bd] rounded-lg ease">{loading ? 'Sending...' : 'Send'}</button>
                             </div>
                         </form>
                     </div>
