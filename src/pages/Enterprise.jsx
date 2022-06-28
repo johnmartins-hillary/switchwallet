@@ -21,7 +21,7 @@ const Enterprise = () => {
                         </div>
                     </div>
                     <div className="md:w-3/4 flex items-end justify-end">
-                        <img className='object-contain w-fit' src="assets/images/Enterpise1.svg" alt="Enterpise" />
+                        <img className='object-contain w-fit' src="assets/images/enterprise1.png" alt="" />
                     </div>
                 </div>
             </section>
@@ -70,7 +70,7 @@ const Enterprise = () => {
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
                             <div className="flex-auto p-5 lg:p-10">
-                                <img src="assets/images/Enterpise2.svg" alt="Enterpise" />
+                                <img src="assets/images/enterprise2.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ const Enterprise = () => {
                     <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
                             <div className="flex-auto flex justify-end">
-                                <img src="assets/images/Enterpise3.svg" alt="Enterpise" />
+                                <img src="assets/images/enterprise3.png" alt="" />
                             </div>
                         </div>
                     </div>

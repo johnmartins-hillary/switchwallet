@@ -18,10 +18,6 @@ const Contact = () => {
         setLoading(true);
         fetch('http://development.switchwallet.io/api/v1/contactform/contact-us', {
             method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
             body: JSON.stringify({
                 subject: subject,
                 name: name,
