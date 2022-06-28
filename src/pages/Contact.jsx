@@ -18,6 +18,9 @@ const Contact = () => {
         setLoading(true);
         fetch('http://development.switchwallet.io/api/v1/contactform/contact-us', {
             method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
             body: JSON.stringify({
                 subject: subject,
                 name: name,
@@ -26,10 +29,12 @@ const Contact = () => {
             })
         })
             .then((response) => response.json())
-            .then(() => {
-                toast.success('Message Sent Successfully');
-                setLoading(false);
-                navigate('/');
+            .then((responseJson) => {
+                if (responseJson.data.statusCode === 200) {
+                    toast.success('Message Sent Successfully');
+                    setLoading(false);
+                    navigate('/');
+                }
             })
             .catch((error) => {
                 toast.error('Failed');
@@ -50,19 +55,19 @@ const Contact = () => {
                         <form className="relative w-full mt-6 space-y-8" onSubmit={SubmitHandler}>
                             <div className="relative">
                                 <label className="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Your Subject</label>
-                                <input type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Enter your subject" required value={subject} onChange={(e) => setSubject(e.target.value)} />
+                                <input type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Subject" required value={subject} onChange={(e) => setSubject(e.target.value)} />
                             </div>
                             <div className="relative">
                                 <label className="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Full Name</label>
-                                <input type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Enter your name" required value={name} onChange={(e) => setName(e.target.value)} />
+                                <input type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Name" required value={name} onChange={(e) => setName(e.target.value)} />
                             </div>
                             <div className="relative">
                                 <label className="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Email Address</label>
-                                <input type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Enter your email" required value={email} onChange={(e) => setEmail(e.target.value)} />
+                                <input type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Email" required value={email} onChange={(e) => setEmail(e.target.value)} />
                             </div>
                             <div className="relative">
                                 <label className="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Your Message</label>
-                                <textarea rows="5" type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Enter your message" required value={message} onChange={(e) => setMessage(e.target.value)} />
+                                <textarea rows="5" type="text" className="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Message" required value={message} onChange={(e) => setMessage(e.target.value)} />
                             </div>
                             <div className="relative">
                                 <button type='submit' className="inline-block w-full px-5 py-4 text-xl font-medium text-center text-white transition duration-200 bg-[#2042B8] hover:bg-[#2546bd] rounded-lg ease">{loading ? 'Sending...' : 'Send'}</button>
