@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
 import { Link } from 'react-router-dom';
 
 import Layout from '../components/Layout';
 import GetStarted from "../components/GetStarted";
 
 const Home = () => {
+    useEffect(() => {
+        AOS.init({
+            delay: 300,
+            once: true
+        });
+    }, []);
     return (
         <Layout>
 
-            <section className="md:py-20 bg-white">
+            <section className="md:py-20 bg-white" data-aos="fade-down" data-aos-duration="1500">
                 <div className="container items-center px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-center sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-3">
@@ -29,19 +36,19 @@ const Home = () => {
             </section>
 
             <section className="py-4 my-12 md:my-0">
-                <div className='text-center md:my-32'>
+                <div className='text-center md:my-32' data-aos="zoom-in" data-aos-duration="2000">
                     <h2 className="box-border m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">Fast and Simple Payments For Your Business</h2>
                     <p className="box-border mt-4 text-base md:text-2xl leading-normal text-gray-900 border-solid">Built for your business to connect more customers</p>
                 </div>
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row mt-12 md:mt-0">
-                    <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12">
+                    <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12" data-aos="fade-right" data-aos-duration="1500">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
                             <div className="flex-auto p-5 lg:p-10">
                                 <img src="assets/images/home2.png" alt="" className="w-fit" />
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col w-full lg:w-2/4 p-8">
+                    <div className="flex flex-col w-full lg:w-2/4 p-8" data-aos="fade-left" data-aos-duration="1500">
                         <p className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold text-[#444444]">Multichain Crypto Wallet API</p>
                         <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-black">Digital assets are the new world currency. SwitchWallet provides an API infrastructure service that allows you to transact digital assets, across multiple chains and guarantee high-level security for your transactions.</p>
                     </div>
@@ -50,11 +57,11 @@ const Home = () => {
 
             <section className="md:py-4">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row my-12 md:my-20">
-                    <div className="flex flex-col w-full lg:w-3/5 p-8 md:order-1 order-2">
+                    <div className="flex flex-col w-full lg:w-3/5 p-8 md:order-1 order-2" data-aos="fade-right" data-aos-duration="1500">
                         <h1 className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold text-[#444444]">Secure, Low-Cost Wallet Service</h1>
                         <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-black">We help businesses save time and money building solutions on the blockchain. With our easy and simple setup process, we'll have you enjoying our service in no time. SwitchWallet offers the best competitive rates, fast crypto transactions, and a variety of customizable features to help your business succeed.</p>
                     </div>
-                    <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1">
+                    <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12 md:order-2 order-1" data-aos="fade-left" data-aos-duration="1500">
                         <div className="relative flex flex-col min-w-0 break-words w-full">
                             <div className="flex-auto p-5 lg:p-10 flex justify-end">
                                 <img src="assets/images/home3.png" alt="" />
@@ -66,7 +73,7 @@ const Home = () => {
 
             <section className="py-4">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row mb-12 md:mb-20">
-                    <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12">
+                    <div className="flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12" data-aos="fade-right" data-aos-duration="1500">
                         <div className="container">
                             <div className="relative flex flex-col min-w-0 break-words w-full">
                                 <div className="flex-auto p-5 lg:p-10">
@@ -75,7 +82,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col w-full lg:w-2/4 p-8">
+                    <div className="flex flex-col w-full lg:w-2/4 p-8" data-aos="fade-left" data-aos-duration="1500">
                         <p className="text-2xl md:text-5xl my-4 leading-relaxed md:leading-snug font-rubik font-bold text-[#444444] capitalize">Supports Multiple Currencies</p>
                         <p className="font-dmsans font-normal text-base md:text-lg my-2 md:my-4 text-black">SwitchWallet supports transactions in multiple cryptocurrencies such as BUSD, USDT, USDC,  DAI and others.</p>
                     </div>
@@ -85,7 +92,7 @@ const Home = () => {
             <section>
                 <div className="max-w-7xl mx-auto">
                     <div className="flex flex-wrap">
-                        <div className="w-full px-4">
+                        <div className="w-full px-4" data-aos="zoom-in" data-aos-duration="1500">
                             <div className="text-center mx-auto mb-12 lg:mb-14">
                                 <h2 className="box-border m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">Begin Your Journey On SwitchWallet</h2>
                                 <p className="box-border mt-4 text-base md:text-2xl leading-normal text-gray-900 border-solid">Built for your business to connect with more customers</p>
@@ -93,7 +100,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="flex flex-wrap">
-                        <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+                        <div className="w-full md:w-1/2 lg:w-1/3 px-4" data-aos="zoom-in-right" data-aos-duration="1500">
                             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-lg mb-8">
                                 <div className="w-[70px] h-[70px] flex items-center justify-center bg-primary rounded-2xl mb-8">
                                     <img src='assets/images/home5.svg' alt='' className="w-full h-full" />
@@ -116,7 +123,7 @@ const Home = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+                        <div className="w-full md:w-1/2 lg:w-1/3 px-4" data-aos="zoom-in" data-aos-duration="1500">
                             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-lg mb-8">
                                 <div className="w-[70px] h-[70px] flex items-center justify-center bg-primary rounded-2xl mb-8">
                                     <img src='assets/images/home6.svg' alt='' className="w-full h-full" />
@@ -139,7 +146,7 @@ const Home = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+                        <div className="w-full md:w-1/2 lg:w-1/3 px-4" data-aos="zoom-in-left" data-aos-duration="1500">
                             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-lg mb-8">
                                 <div className="w-[70px] h-[70px] flex items-center justify-center bg-primary rounded-2xl mb-8">
                                     <img src='assets/images/home7.svg' alt='' className="w-full h-full" />
