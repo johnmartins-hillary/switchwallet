@@ -23,7 +23,7 @@ const Home = () => {
                                 <h1 className="text-3xl md:text-5xl md:text-left text-gradient font-bold tracking-tight md:mt-0 mt-10 mb-14 capitalize">Easy And Secure Wallet Infrastructure for your business</h1>
                                 <p className="mx-auto text-base text-black sm:max-w-md lg:text-xl md:max-w-3xl">SwitchWallet is an enterprise-grade wallet provision service. Leveraging our technology, you can securely process transactions in a fraction of the time while saving cost.</p>
                                 <div className="relative flex flex-col sm:flex-row sm:space-x-4">
-                                    <a href="https://integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full px-6 py-3 mb-3 text-white bg-[#2042B8] sm:mb-0 hover:bg-[#2546bd] sm:w-auto font-dmsans text-lg font-bold rounded-full md:w-56">Create Account</a>
+                                    <a href="/register" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full px-6 py-3 mb-3 text-white bg-[#2042B8] sm:mb-0 hover:bg-[#2546bd] sm:w-auto font-dmsans text-lg font-bold rounded-full md:w-56">Create Account</a>
                                     <Link to="/contact" className="flex items-center justify-center px-6 py-3 text-gray-500 bg-gray-100 hover:bg-gray-200 hover:text-gray-600 border-2 border-gradient text-gradient font-dmsans text-lg font-bold rounded-full md:w-56">Contact Us</Link>
                                 </div>
                             </div>
