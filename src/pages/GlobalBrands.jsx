@@ -10,7 +10,7 @@ const GlobalBrands = () => {
                     <div className="md:w-2/3 flex flex-col">
                         <h1 className="font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mt-16 mb-10">API suite to build amazing wallet infrastructure service experiences</h1>
                         <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">It's never been easier, faster, or more reliable for your business to use a wallet infrastructure. SwitchWallet offers a fantastic blockchain transaction experience to your crypto solution.</p>
-                        <a href="/register" target="_blank" rel="noopener noreferrer">
+                        <a href="https://integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
                             <button type='button' className='p-4 md:w-56 w-52 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
                         </a>
                     </div>

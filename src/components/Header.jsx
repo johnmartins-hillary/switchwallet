@@ -23,9 +23,10 @@ const Header = () => {
                     <div className="hidden md:flex items-center space-x-1">
                         <Link to="/" className={`py-5 px-3 text-xl font-dmsans font-semibold hover:text-gradient transition duration-300 ease-in ${pathname === '/' ? 'text-gradient' : ''}`}>Home</Link>
                         <Link to="/pricing" className={`py-5 px-3 text-xl font-dmsans font-semibold hover:text-gradient transition duration-300 ease-in ${pathname === '/pricing' ? 'text-gradient' : ''}`}>Pricing</Link>
-                        <a href="https://xend-finance.gitbook.io/switchwallet/" target="_blank" rel="noopener noreferrer" className={`py-5 px-3 text-xl font-dmsans font-semibold hover:text-gradient transition duration-300 ease-in ${pathname === '/developers' ? 'text-gradient' : ''}`}>Documentation</a>
+                        <a href="https://faucet.switchwallet.io/" target="_blank" rel="noopener noreferrer" className={`py-5 px-3 text-xl font-dmsans font-semibold hover:text-gradient transition duration-300 ease-in ${pathname === '/faucet' ? 'text-gradient' : ''}`}>Faucet</a>
+                        <a href="https://xend-finance.gitbook.io/switchwallet/" target="_blank" rel="noopener noreferrer" className={`py-5 px-3 text-xl font-dmsans font-semibold hover:text-gradient transition duration-300 ease-in ${pathname === '/documentation' ? 'text-gradient' : ''}`}>Documentation</a>
                         <a href="https://integrations.switchwallet.io/auth/login" target="_blank" rel="noopener noreferrer" className={`py-5 px-3 text-xl font-dmsans font-semibold hover:text-gradient transition duration-300 ease-in ${pathname === '/login' ? 'text-gradient' : ''}`}>Login</a>
-                        <Link to="/register"><button type='button' className='p-3 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-semibold md:ml-0 ml-4 md:my-0 my-5 text-xl'>Create Account</button></Link>
+                        <a href="https://integrations.switchwallet.io/auth/confirm" target="_blank" rel="noopener noreferrer"><button type='button' className='p-3 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-semibold md:ml-0 ml-4 md:my-0 my-5 text-xl'>Create Account</button></a>
                     </div>
                     <div className="md:hidden flex items-center">
                         <button className="mobile-menu-button">
@@ -45,9 +46,10 @@ const Header = () => {
             <div className="mobile-menu hidden md:hidden">
                 <Link to="/" className={`block px-4 text-xl font-dmsans font-semibold hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/' ? 'text-gradient' : ''}`}>Home</Link>
                 <Link to="/pricing" className={`block py-2 md:py-0 px-4 text-xl font-dmsans font-semibold hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/pricing' ? 'text-gradient' : ''}`}>Pricing</Link>
-                <a href="https://xend-finance.gitbook.io/switchwallet/" target="_blank" rel="noopener noreferrer" className={`my-5 px-4 text-xl font-dmsans font-semibold hover:text-gradient transition duration-300 ease-in ${pathname === '/developers' ? 'text-gradient' : ''}`}>Documentation</a>
+                <a href="https://faucet.switchwallet.io/" target="_blank" rel="noopener noreferrer" className={`block pt-2 pb-3 px-4 text-xl font-dmsans font-semibold hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/faucet' ? 'text-gradient' : ''}`}>Faucet</a>
+                <a href="https://xend-finance.gitbook.io/switchwallet/" target="_blank" rel="noopener noreferrer" className={`my-5 px-4 text-xl font-dmsans font-semibold hover:text-gradient transition duration-300 ease-in ${pathname === '/documentation' ? 'text-gradient' : ''}`}>Documentation</a>
                 <a href="https://integrations.switchwallet.io/auth/login" target="_blank" rel="noopener noreferrer" className={`block pt-2 pb-3 px-4 text-xl font-dmsans font-semibold hover:text-gradient focus:text-gradient transition duration-300 ease-in ${pathname === '/login' ? 'text-gradient' : ''}`}>Login</a>
-                <Link to="/register"><button type='button' className='p-3 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-semibold md:ml-0 ml-4 md:my-0 my-5 text-xl'>Create Account</button></Link>
+                <a href="https://integrations.switchwallet.io/auth/confirm" target="_blank" rel="noopener noreferrer"><button type='button' className='p-3 bg-[#2042B8] hover:bg-[#2546bd] w-56 rounded-full text-white cursor-pointer font-dmsans font-semibold md:ml-0 ml-4 md:my-0 my-5 text-xl'>Create Account</button></a>
             </div>
         </header>
     )

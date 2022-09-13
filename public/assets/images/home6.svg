@@ -11,14 +11,14 @@
 <path d="M17.5224 38.9592H17.0224V39.4592V43.1625V43.6625H17.5224H18.5194C19.8182 43.6625 20.8711 42.6096 20.8711 41.3108C20.8711 40.012 19.8182 38.9592 18.5194 38.9592H17.5224Z" stroke="url(#paint8_linear_239_171)"/>
 <path d="M42.5908 32.9769H42.0908V33.4769V37.1802V37.6802H42.5908H43.5879C44.8866 37.6802 45.9395 36.6274 45.9395 35.3286C45.9395 34.0298 44.8866 32.9769 43.5879 32.9769H42.5908Z" stroke="url(#paint9_linear_239_171)"/>
 <path d="M29.9756 52.3364L29.9705 52.8364L30.4705 52.8415L32.7201 52.8642L33.2201 52.8693L33.2251 52.3693L33.26 48.9271C33.269 48.0298 32.549 47.295 31.6516 47.2859C30.7543 47.2768 30.0195 47.9969 30.0104 48.8943L29.9756 52.3364Z" stroke="url(#paint10_linear_239_171)"/>
-<line x1="29.1323" y1="35.2559" x2="38.1027" y2="35.2559" stroke="url(#paint11_linear_239_171)" strokeLinecap="round"/>
-<line x1="29.1323" y1="39.244" x2="38.1027" y2="39.244" stroke="url(#paint12_linear_239_171)" strokeLinecap="round"/>
-<line x1="29.1323" y1="42.6625" x2="38.1027" y2="42.6625" stroke="url(#paint13_linear_239_171)" strokeLinecap="round"/>
+<line x1="29.1323" y1="35.2559" x2="38.1027" y2="35.2559" stroke="url(#paint11_linear_239_171)" stroke-linecap="round"/>
+<line x1="29.1323" y1="39.244" x2="38.1027" y2="39.244" stroke="url(#paint12_linear_239_171)" stroke-linecap="round"/>
+<line x1="29.1323" y1="42.6625" x2="38.1027" y2="42.6625" stroke="url(#paint13_linear_239_171)" stroke-linecap="round"/>
 <rect x="31.2658" y="25.5703" width="4.98816" height="4.98816" rx="2.49408" stroke="url(#paint14_linear_239_171)"/>
 <rect x="48.0731" y="20.4427" width="4.98816" height="7.26711" rx="2.49408" stroke="url(#paint15_linear_239_171)"/>
-<line x1="36.8237" y1="16.1697" x2="40.9514" y2="16.1697" stroke="url(#paint16_linear_239_171)" strokeLinecap="round"/>
-<line x1="16.598" y1="34.1164" x2="19.8711" y2="34.1164" stroke="url(#paint17_linear_239_171)" strokeLinecap="round"/>
-<line x1="22.0106" y1="48.075" x2="25.2836" y2="48.075" stroke="url(#paint18_linear_239_171)" strokeLinecap="round"/>
+<line x1="36.8237" y1="16.1697" x2="40.9514" y2="16.1697" stroke="url(#paint16_linear_239_171)" stroke-linecap="round"/>
+<line x1="16.598" y1="34.1164" x2="19.8711" y2="34.1164" stroke="url(#paint17_linear_239_171)" stroke-linecap="round"/>
+<line x1="22.0106" y1="48.075" x2="25.2836" y2="48.075" stroke="url(#paint18_linear_239_171)" stroke-linecap="round"/>
 <defs>
 <linearGradient id="paint0_linear_239_171" x1="46.1177" y1="52.942" x2="50.2134" y2="51.4141" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FF6600"/>
