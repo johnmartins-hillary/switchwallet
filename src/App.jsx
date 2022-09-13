@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Register from "./pages/Register";
 import Pricing from "./pages/Pricing";
 import PrivacyTerms from "./pages/PrivacyTerms";
 import Developers from "./pages/Developers";
@@ -18,7 +17,6 @@ const App = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/register" element={<Register />} />
         <Route path="pricing" element={<Pricing />} />
         <Route path="privacy-terms" element={<PrivacyTerms />} />
         <Route path="developers" element={<Developers />} />
