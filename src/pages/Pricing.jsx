@@ -14,7 +14,7 @@ const Pricing = () => {
                         <div className="p-10 md:p-20 space-y-10 border rounded-[25.3008px] bg-gradient text-white">
                             <h3 className="text-xl md:text-2xl font-semibold">For startups and innovators</h3>
                             <h1 className='font-rubik text-8xl font-bold'>$0</h1>
-                            <a href="https://integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer">
+                            <a href="https://integrations.switchwallet.io/create-account" target="_blank" rel="noopener noreferrer">
                                 <button type='button' className='p-4 bg-white hover:bg-white w-60 md:w-64 rounded-[35.5907px] cursor-pointer mt-10'>
                                     <p className='text-gradient font-dmsans font-bold text-lg'>Get Started - For free</p>
                                 </button>
