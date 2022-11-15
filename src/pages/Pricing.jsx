@@ -132,7 +132,7 @@ const Pricing = () => {
                     </div>
                     <div className="lg:w-2/5 w-full lg:flex lg:flex-row hidden items-center justify-center">
                         <img src="assets/images/big_logo.svg" alt="big logo" className="h-96 w-full" />
-                        <a href="https://integrations.switchwallet.io/auth/register" target="_blank" rel="noopener noreferrer" className='absolute'>
+                        <a href="https://integrations.switchwallet.io/create-account" target="_blank" rel="noopener noreferrer" className='absolute'>
                             <button type='button' className='p-4 bg-white hover:bg-white md:w-60 w-40 rounded-full cursor-pointer'>
                                 <p className='text-gradient font-dmsans font-bold text-lg'>Create Account</p>
                             </button>
