@@ -12,7 +12,7 @@ const Enterprise = () => {
                         <h1 className="max-w-xl font-rubik font-bold text-gradient text-2xl md:text-5xl md:text-left md:mt-0 mt-16 mb-10 leading-loose">Manage all your accounts in one place</h1>
                         <p className="max-w-md md:text-left leading-relaxed text-lg text-gray-600 font-dmsans mb-14">Utilize our custom dashboard to manage all of your wallets and blockchain transactions, taking care of everything at your fingertips.</p>
                         <div className="flex justify-center md:justify-start md:gap-5 gap-2">
-                            <a href="https://integrations.switchwallet.io/create-account" target="_blank" rel="noopener noreferrer">
+                            <a href="https://sandbox-integrations.switchwallet.io/create-account" target="_blank" rel="noopener noreferrer">
                                 <button type='button' className='p-4 md:w-56 w-40 bg-[#2042B8] hover:bg-[#2546bd] rounded-full text-white cursor-pointer font-dmsans font-bold md:text-lg'>Create Account</button>
                             </a>
                             <Link to="/">
