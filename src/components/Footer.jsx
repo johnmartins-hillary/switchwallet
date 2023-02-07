@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import {BsTelegram} from "react-icons/bs"
+import {SiGmail} from "react-icons/si"
 
 const Footer = () => {
     return (
@@ -35,9 +37,20 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <div className='flex flex-col md:flex-row md:items-center justify-between p-2 gap-6 mt-6' target="_blank" rel="noreferrer">
+                    <p className='md:flex-[0.6] text-[40px] md:text-6xl text-gray-500'>Join Our Community</p>
+                    <div className='flex gap-4 md:p-10 items-left md:flex-[0.4]  w-[100%] justify-flex-start'>
+                        <a href="https://t.me/SwitchWallet">
+                        <BsTelegram className="text-[30px] md:text-[60px]"color="#0088cc"/>
+                        </a>
+                        <a href="mailto:Switchwallet.xend@gmail.com?">
+                        <SiGmail className="text-[30px] md:text-[60px]"color="#ff6600"/>                        
+                        </a>
+                    </div>
+                </div>  
                 <div className="flex items-center justify-between">
                     <p className="max-w-sm mt-10 text-lg font-dmsans text-[#625F5F]">© Switch Wallet 2022</p>
-                </div>
+                </div>         
             </div>
         </footer>
     )
