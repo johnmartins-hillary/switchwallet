@@ -25,7 +25,7 @@ const Footer = () => {
                             <p className="font-manrope font-bold text-2xl text-black">Developers</p>
                             <nav className="flex flex-col mt-4 space-y-2 text-xl font-dmsans text-[#2f3033]">
                                 <Link className="hover:opacity-75" to='/pricing'>Pricing</Link>
-                                <a href="https://doc.switchwallet.io/" target="_blank" rel="noopener noreferrer" className="hover:opacity-75">Documentation</a>
+                                <a href="https://docs.switchwallet.io/" target="_blank" rel="noopener noreferrer" className="hover:opacity-75">Documentation</a>
                             </nav>
                         </div>
                         <div>
